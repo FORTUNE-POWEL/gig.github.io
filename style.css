@@ -1,155 +1,169 @@
 * {
-     -moz-box-sizing: border-box;
-     -o-box-sizing: border-box;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: poppins;
 }
 
 p {
-     font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-     background-color: #F1F1F1;
-     margin: 0;
-     padding: none;
-     -moz-box-sizing: border-box;
-     -o-box-sizing: border-box;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
-     overflow-x: hidden;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 0;
+    padding: none;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
+
 
 /*.................nav bar.......................*/
+
 nav {
-     display: grid;
-     grid-template-columns: 60% 40%;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
+
 /*logo*/
+
 nav .left_side img {
-     width: 70px;
-     height: 70px;
-     position: relative;
-     left: 90px;
-     top: 30px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 90px;
+    top: 30px;
 }
 
+
 /*logo*/
+
 
 /* menue*/
+
 nav .right_side ul {
-     list-style-type: none;
-     display: inline-flex;
-     position: relative;
-     right: 90px;
-     top: 30px;
-     font-size: 20px;
-     text-align: right;
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    right: 90px;
+    top: 30px;
+    font-size: 20px;
+    text-align: right;
 }
 
 nav .right_side ul li a {
-     text-decoration: none;
-     padding: 12px 25px;
-     margin: auto 20px;
-     color: black;
+    text-decoration: none;
+    padding: 12px 15px;
+    margin: auto 5px;
+    color: black;
 }
+
 
 /*menue*/
 
+
 /*.................nav bar.......................*/
+
 
 /*.................section two......................*/
 
 section.two {
-     display: grid;
-     grid-template-columns: 60% 40%;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    gap: 5%;
 }
 
+
 /*.two_left*/
+
 .two_left {
-     position: relative;
-     left: 120px;
+    position: relative;
+    left: 120px;
 }
 
 .two .two_left h1 {
-     font-size: 8em;
+    font-size: 6em;
 }
 
 .two .two_left h1:last-of-type {
-     text-indent: 2.3em;
-     margin-top: 0;
-     padding-top: 0;
-     transform: translateY(-80px);
+    text-indent: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
+    transform: translateY(-80px);
 }
 
 .two .two_left h3 {
-     color: #E50F0F;
+    color: #E50F0F;
 }
 
 .two .two_left p {
-     color: #555555;
+    color: #555555;
 }
 
 .two .two_left label {
-     color: #555555;
-     border: 2px solid#555555;
-     padding: 12px;
-     border-radius: 20px;
+    color: #555555;
+    border: 2px solid#555555;
+    padding: 12px;
+    border-radius: 20px;
 }
 
 .two .two_left button {
-     font-size: 17px;
-     color: white;
-     background-color: #E50F0F;
-     padding: 12px;
-     border-radius: 25px;
-     width: 120px;
-     border: none;
-
+    font-size: 17px;
+    color: white;
+    background-color: #E50F0F;
+    padding: 12px;
+    border-radius: 25px;
+    width: 120px;
+    border: none;
 }
+
 
 /*.two_left*/
 
+
 /*two_right*/
 
 .two .two_right {
-     transform: translateY(200px);
+    transform: translateY(170px);
 }
 
 .two .two_right {
-     display: grid;
-     grid-template-columns: 50% 50%;
-     row-gap: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 5px;
 }
 
 .two .two_right img {
-     width: 350px;
-
+    width: 250px;
 }
 
 .two .two_right img.img1 {
-     border-top-right-radius: 130px;
-     border-bottom-left-radius: 130px;
-     height: 500px;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    height: 350px;
 }
 
 .two .two_right img.img2 {
-     border-top-left-radius: 130px;
-     border-bottom-left-radius: 130px;
-     height: 370px;
-     transform: translate(-20px, 250px);
-
+    border-top-left-radius: 130px;
+    border-bottom-left-radius: 130px;
+    height: 250px;
+    transform: translate(-20px, 250px);
 }
 
 .two .two_right img.img3 {
-     border-top-left-radius: 130px;
-     height: 370px;
-
+    border-top-left-radius: 130px;
+    height: 300px;
 }
 
 
 /*two_right*/
+
 
 /*.................section two......................*/
 
@@ -157,312 +171,419 @@ section.two {
 /*...............................................................BETA-AREA...............................................................*/
 
 .beta-area {
-     transform: translateY(130px);
-     display: block;
-     width: 100%;
-     background-color: #171717;
+    transform: translateY(130px);
+    display: block;
+    width: 100%;
+    background-color: #171717;
 }
+
 
 /*.................section three......................*/
 
 .three {
-     display: block;
-     width: 100%;
-     padding: 50px 0;
-     background-color: #E50F0F;
-     position: relative;
-
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #E50F0F;
+    position: relative;
 }
+
 
 /*.................section three......................*/
 
+
 /*.................sectioN four......................*/
+
 section.four {
-     position: relative;
-     left: 120px;
-     overflow: hidden;
+    position: relative;
+    left: 5%;
+    margin: auto;
+    overflow: hidden;
 }
 
 section.four h2 {
-     color: white;
-     font-size: 5em;
-     position: relative;
-
-
+    color: white;
+    font-size: 5em;
+    position: relative;
 }
 
 section.four h2::after {
-     content: "";
-     border-top: 1.5px solid #555555;
-     padding: 0 150px;
-     overflow: hidden;
-     position: absolute;
-     top: 50%;
-     left: 5% margin: 0;
+    content: "";
+    border-top: 1.5px solid #555555;
+    padding: 0 150px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 5% margin: 0;
 }
 
 section.four p {
-     display: block;
-     color: #555555;
-     transform: translateY(-50px);
+    display: block;
+    color: #555555;
+    transform: translateY(-50px);
 }
 
-/*LIST*/
-section.four .main-list {
-     list-style-type: none;
-     color: #555555;
-     font-size: 2.5em;
-     display: block;
-     width: 80%;
-     list-style-position: outside;
 
+/*LIST*/
+
+section.four .main-list {
+    list-style-type: none;
+    color: #555555;
+    font-size: 2.5em;
+    display: block;
+    width: 80%;
+    list-style-position: outside;
 }
 
 section.four .main-list li.main-li {
-     border-bottom: 2px solid #555555;
-     width: 100%;
-     position: relative;
-     padding: 25px 12px;
-     margin-top: 30px;
-
+    border-bottom: 2px solid #555555;
+    width: 100%;
+    position: relative;
+    padding: 25px 12px;
+    margin-top: 30px;
 }
 
 section.four .main-list li.main-li::after {
-     content: url(arrow.png);
-     position: absolute;
-     top: 10px;
-     right: 5px;
-     padding: 15px 20px;
-
-
+    content: url(arrow.png);
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 15px 20px;
 }
 
 section.four .main-list li.main-li ul {
-     display: none;
+    display: none;
 }
 
 section.four .main-list li.main-li:hover {
-     background-color: #555555;
-     color: white;
-     font-size: 1.01em;
-     position: relative;
-     border: none;
-     transition: all 0.2s;
-     transition-timing-function: linear;
-
+    background-color: #555555;
+    color: white;
+    font-size: 1.01em;
+    position: relative;
+    border: none;
+    transition: all 0.2s;
+    transition-timing-function: linear;
 }
 
 section.four .main-list li.main-li:hover::after {
-
-     content: url(up-arrow.png);
-     /*  transform: rotateZ(-45deg);
+    content: url(up-arrow.png);
+    /*  transform: rotateZ(-45deg);
       
      border-radius: 100%;*/
-     background-color: #E50F0F;
-     transition: all 0.5s;
-     transition-timing-function: linear;
+    background-color: #E50F0F;
+    transition: all 0.5s;
+    transition-timing-function: linear;
 }
 
 section.four .main-list li.view-more {
-     margin-top: 40px;
-     text-align: center;
+    margin-top: 40px;
+    text-align: center;
 }
 
 section.four .main-list li.view-more a {
-
-     color: #555555;
-     font-size: 30px;
-     text-decoration: none;
-     border: 1px solid #F1F1F1;
-     padding: 12px 30px;
-     border-radius: 30px;
+    color: #555555;
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid #F1F1F1;
+    padding: 12px 30px;
+    border-radius: 30px;
 }
 
 section.four .main-list li.view-more a:hover {
-     background-color: #E50F0F;
-     color: #fff;
-     border: none;
-     transition: all 0.5s;
+    background-color: #E50F0F;
+    color: #fff;
+    border: none;
+    transition: all 0.5s;
 }
+
 
 /*LIST*/
 
+
 /*.................sectioN four......................*/
 
+
 /*.................section five......................*/
+
 section.five {
-     position: relative;
-     left: 120px;
-     overflow: hidden;
-     display: grid;
-     grid-template-columns: 40% 40%;
-     gap: 10%;
-     width: 100%;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+    width: 100%;
 }
+
 
 /*left*/
 
 section.five .five_left {
-     height: fit-content;
-
+    height: auto;
 }
 
 section.five h2 {
-     color: white;
-     font-size: 5em;
-     position: relative;
+    color: white;
+    font-size: 5em;
+    position: relative;
 }
 
 section.five p {
-     color: #555555;
-
+    color: #555555;
 }
 
 section.five p::first-letter {
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 section.five p:first-of-type span {
-     color: #E50F0F;
-     text-transform: uppercase;
+    color: #E50F0F;
+    text-transform: uppercase;
 }
 
 section.five label {
-     display: flex;
-     justify-content: space-between;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 section.five label P span:last-of-type {
-     color: white;
-     font-size: 50px;
-     width: 10px;
+    color: white;
+    font-size: 50px;
+    width: 10px;
 }
 
 section.five label p {
-     color: white;
+    color: white;
 }
 
+
 /*left*/
+
 
 /*right*/
 
 section.five .five_right {
-     transform: translatey(100px);
-     display: inline-block;
-     height: 100%;
-     overflow: hidden;
+    transform: translatey(100px);
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
 }
 
 section.five .five_right img.cropped-1 {
-     width: 345px;
-     height: 510px;
-     object-fit: cover;
-     object-position: top left;
-     transform: translateY(20px);
-     border-top-right-radius: 140px;
-     border-top-left-radius: 140px;
-     border-bottom-right-radius: 140px;
-     border-bottom-left-radius: 140px;
+    width: 245px;
+    height: 510px;
+    object-fit: cover;
+    object-position: top left;
+    transform: translateY(20px);
+    border-top-right-radius: 140px;
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    border-bottom-left-radius: 140px;
 }
 
-
-
 section.five .five_right img.cropped-2 {
-     width: 345px;
-     height: 510px;
-     object-fit: cover;
-
-     object-position: top right;
-     border-top-right-radius: 140px;
-     border-top-left-radius: 140px;
-     border-bottom-right-radius: 140px;
-     border-bottom-left-radius: 140px;
-
+    width: 245px;
+    height: 510px;
+    object-fit: cover;
+    /*  object-position: top right;*/
+    border-top-right-radius: 140px;
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    border-bottom-left-radius: 140px;
 }
 
 section.five .five_right img:hover {
-     transform: scale(1.01, 1.01);
-     transition: all 0.2s;
+    transform: scale(1.01, 1.01);
+    transition: all 0.2s;
 }
+
 
 /*right*/
 
+
 /*.................section five......................*/
+
 
 /*.................section six......................*/
 
 section.six {
-     position: relative;
-     left: 120px;
-     overflow: hidden;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    display: block;
 }
 
 section.six h2 {
-     color: white;
-     font-size: 5em;
-     position: relative;
-
+    color: white;
+    font-size: 5em;
+    position: relative;
 }
 
 section.six h2::first-letter {
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 section.six p {
-     color: #555555;
+    color: #555555;
 }
 
 
 /*left*/
+
 section.six ul {
-     list-style-type: none;
-     text-align: center;
-     width: 50%;
-     margin: auto;
-     display: block;
+    list-style-type: none;
+    text-align: center;
+    width: 90%;
+    height: 560px;
+    margin: auto;
+    display: block;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: top left;
 }
 
 .six-left-li {
-     color: white;
-     padding: 5px 10px;
-     background-image: linear-gradient(to right, #B21010, #877171);
-     width: 100px;
-     margin: auto;
-     border-radius: 15px;
-     margin: 10px;
-     text-align: center;
+    color: white;
+    padding: 5px 9px;
+    background-image: linear-gradient(to right, #B21010, #877171);
+    width: 100px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
 }
 
 .six-left-li:nth-child(1) {
-     transform: translateX(550%);
+    transform: translate(550%, 250%);
 }
 
-
 .six-left-li:nth-child(2) {
-     transform: translateX();
+    transform: translate(250%, 250%);
 }
 
 .six-left-li:nth-child(3) {
-     transform: translatex(550%);
-     margin-top: 320px;
-
+    transform: translate(610%, 650%);
 }
 
 .six-left-li:nth-child(4) {
-     transform: translateX(275%);
-     margin-top: 90px;
-
+    transform: translate(410%, 850%);
 }
 
 .six-left-li:nth-child(5) {
-     transform: translateX();
-
-     margin-top: 90px;
+    transform: translate(250%, 980%);
 }
 
 
 /*left*/
+
+
 /*.................section six......................*/
+
+
+/*.................section seven......................*/
+
+section.seven {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+section.seven h2 {
+    color: white;
+    font-size: 5em;
+    position: relative;
+}
+
+section.seven h2::first-letter {
+    text-transform: capitalize;
+}
+
+section.seven p {
+    color: #555555;
+}
+
+section.seven p::first-letter {
+    text-transform: uppercase;
+}
+
+section.seven div.flex_box div {
+    width: 210px;
+    margin: 10px;
+    position: relative;
+}
+
+section.seven div.flex_box div img {
+    width: 200px;
+    height: 250px;
+    filter: grayscale(70%);
+    margin: 10px;
+}
+
+section.seven div.flex_box div p {
+    position: absolute;
+}
+
+section.seven div.flex_box div p:first-of-type {
+    bottom: 25px;
+    left: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+section.seven div.flex_box div p:last-of-type {
+    bottom: 5px;
+    left: 15px;
+}
+
+section.seven div.flex_box img:hover {
+    filter: none;
+    transition: all 0.3s;
+    transition-timing-function: linear;
+}
+
+section.seven div.flex_box {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+/*.................section seven......................*/
+
+hr {
+    margin-left: 0;
+    margin-block-end: 0;
+    background-color: #555555;
+    width: 100%;
+}
+
+
+/*.................section eight......................*/
+
+section.eight {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+section.eight h2 {
+    color: white;
+    font-size: 5em;
+    position: relative;
+}
+
+section.eight h2::first-letter {
+    text-transform: capitalize;
+}
+
+section.eight p {
+    color: #555555;
+}
+
+
+/*.................section eight......................*/
+
 
 /*...............................................................BETA-AREA...............................................................*/
