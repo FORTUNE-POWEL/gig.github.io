@@ -1,3 +1,8 @@
+@font-face {
+    font-family: poppins;
+    src: url('Poppins-Regular.ttf');
+}
+
 * {
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -214,7 +219,8 @@ section.four h2::after {
     overflow: hidden;
     position: absolute;
     top: 50%;
-    left: 5% margin: 0;
+    left: 5%;
+    margin: 0;
 }
 
 section.four p {
@@ -583,7 +589,212 @@ section.eight p {
 }
 
 
+/*SLIDE*/
+
+.slide-container {
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.slide {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    flex: 1;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.slide p.slim {
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 220px;
+    visibility: hidden;
+}
+
+.slide p span {
+    font-weight: 600;
+    font-size: 25px
+}
+
+.slide img {
+    margin: auto;
+    width: 200px;
+    height: 200PX;
+    border-radius: 10px;
+}
+
+.slide img.active {
+    transform: scale(2);
+    transition: all 1s ease-in-out;
+    /* Increase the size of the active (center) image */
+    align-self: center;
+    align-items: center;
+    /* To ensure it's displayed in front of the other images */
+}
+
+.slide.active p.slim {
+    visibility: visible;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+
+.buttons button {
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #555555;
+    color: #fff;
+    height: 50px;
+    border: none;
+    width: 50px;
+}
+
+.buttons button:nth-child(1) {
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+
+.buttons button:nth-child(2) {
+    position: inherit;
+    top: 0;
+    right: 0;
+}
+
+
+/*SLIDE*/
+
+
+/*.................section eight......................*/
+
+
+/*.................section eight......................*/
+
+section.nine p.nine {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(131, 56, 201);
+}
+
+section.nine p span:nth-child(1) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(2) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(3) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(4) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.3s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(5) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.4s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(6) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(7) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.6s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(8) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-delay: 0.7s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(1) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(1) {
+    animation-name: colorChanger;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+section.nine p span:nth-child(1) {
+    animation-name: colorChanger;
+    animation-duration: 12s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-iteration-count: infinite;
+}
+
+
 /*.................section eight......................*/
 
 
 /*...............................................................BETA-AREA...............................................................*/
+
+
+/*---ANIMATIONS---*/
+
+@keyframes colorChanger {
+    25% {
+        color: rgb(8, 8, 196);
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: blueviolet;
+    }
+    100% {
+        color: rgb(166, 88, 239);
+    }
+}
