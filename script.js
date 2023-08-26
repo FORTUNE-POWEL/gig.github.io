@@ -31,3 +31,35 @@ function hide() {
     } else
         hiding = "hidden";
 }
+
+
+
+/*
+
+//second slide
+
+const slider = document.querySelector('.s-slider');
+const sSlides = document.querySelectorAll('.s-slide');
+const slideWidth = sSlides[0].clientWidth;
+
+
+function updateSlidePosition() {
+    slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+}
+
+
+function nextSlide() {
+
+    currentIndex = (currentIndex + 1) % sSlides.length;
+    updateSlidePosition();
+}
+
+function prevSlide() {
+
+    currentIndex = (currentIndex - 1 + sSlides.length) % sSlides.length;
+    updateSlidePosition();
+}
+
+setInterval(nextSlide, 5000); // Auto slide every 5 seconds
+
+*/
