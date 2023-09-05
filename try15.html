@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <div id="parent">booo
+        <div id="child">This is the child element</div>
+    </div>
+
+    <script>
+        document.getElementById("parent").addEventListener("click", function() {
+            document.getElementById("child").classList.toggle("hidden");
+        });
+    </script>
+</body>
+
+</html>

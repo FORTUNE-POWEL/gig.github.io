@@ -33,6 +33,8 @@ body {
 nav {
     display: grid;
     grid-template-columns: 60% 40%;
+    padding: 10px;
+    position: relative;
 }
 
 
@@ -66,7 +68,9 @@ nav .right_side ul li a {
     text-decoration: none;
     padding: 12px 15px;
     margin: auto 5px;
-    color: black;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #171717;
 }
 
 
@@ -766,15 +770,15 @@ section.nine p.nine {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 1200;
     color: rgb(131, 56, 201);
 }
 
 section.nine p span:nth-child(1) {
     animation-name: colorChanger;
     animation-duration: 12s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -782,7 +786,7 @@ section.nine p span:nth-child(2) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.1s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -790,7 +794,7 @@ section.nine p span:nth-child(3) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.2s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -798,7 +802,7 @@ section.nine p span:nth-child(4) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.3s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -806,7 +810,7 @@ section.nine p span:nth-child(5) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.4s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -814,7 +818,7 @@ section.nine p span:nth-child(6) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.5s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -822,7 +826,7 @@ section.nine p span:nth-child(7) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.6s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -830,7 +834,7 @@ section.nine p span:nth-child(8) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.7s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -838,13 +842,13 @@ section.nine p span:nth-child(9) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.8s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
 section.nine p span:nth-child(10) {
     animation-name: colorChanger;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-duration: 12s;
     animation-delay: 0.9s;
     animation-iteration-count: infinite;
@@ -854,7 +858,7 @@ section.nine p span:nth-child(11) {
     animation-name: colorChanger;
     animation-duration: 12s;
     animation-delay: 0.10s;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -1016,6 +1020,7 @@ footer {
     bottom: 0;
     z-index: 1;
     color: #877171;
+    clear: both;
 }
 
 footer a {
@@ -1030,22 +1035,465 @@ footer a {
 /*...................footer...................*/
 
 
+/*SERVICES*/
+
+.serviceWorkContact {
+    background-color: #171717;
+}
+
+.serviceWorkContact nav ul li a {
+    color: #ddd;
+}
+
+
+/*...................thriteen...................*/
+
+*section.thirteen,
+*section.thirteen ::after,
+*section.thirteen ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section.thirteen,
+.serviceWorkContact {
+    height: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "League Spartan", system-ui, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: #ddd;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    max-width: 75rem;
+    padding: 3em 1.5em;
+}
+
+.main__heading {
+    font-weight: 600;
+    font-size: 2.25em;
+    margin-bottom: 0.75em;
+    text-align: center;
+    color: #eceff1;
+    text-transform: capitalize;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+}
+
+.card {
+    --flow-space: 0.5em;
+    --hsl: var(--hue), var(--saturation), var(--lightness);
+    flex: 1 1 14rem;
+    padding: 1.5em 2em;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    align-items: start;
+    gap: 1.25em;
+    color: #eceff1;
+    background-color: #212121;
+    border: 1px solid #eceff133;
+    border-radius: 15px;
+}
+
+.card:nth-child(1) {
+    --hue: 165;
+    --saturation: 82.26%;
+    --lightness: 51.37%;
+}
+
+.card:nth-child(2) {
+    --hue: 291.34;
+    --saturation: 95.9%;
+    --lightness: 61.76%;
+}
+
+.card:nth-child(3) {
+    --hue: 338.69;
+    --saturation: 100%;
+    --lightness: 48.04%;
+}
+
+.card__bullets {
+    line-height: 1.4;
+}
+
+.card__bullets li::before {
+    display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='16' title='check' fill='%23dddddd'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z' /%3E%3C/svg%3E");
+    transform: translatey(0.25ch);
+    margin-right: 1ch;
+}
+
+.card__heading {
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+.card__price {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.flow>*+* {
+    margin-top: var(--flow-space, 1.25em);
+}
+
+.cta {
+    display: block;
+    align-self: end;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d0d0d;
+    padding: 0.7em;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    /* user-select: none; */
+    opacity: var(--opacity, 0);
+    -webkit-mask: radial-gradient( 25rem 25rem at var(--x) var(--y), #000 1%, transparent 50%);
+    mask: radial-gradient( 25rem 25rem at var(--x) var(--y), #000 1%, transparent 50%);
+    transition: 400ms mask ease;
+    will-change: mask;
+}
+
+.overlay .card {
+    background-color: hsla(var(--hsl), 0.15);
+    border-color: hsla(var(--hsl), 1);
+    box-shadow: 0 0 0 1px inset hsl(var(--hsl));
+}
+
+.overlay .cta {
+    display: block;
+    grid-row: -1;
+    width: 100%;
+    background-color: hsl(var(--hsl));
+    box-shadow: 0 0 0 1px hsl(var(--hsl));
+}
+
+:not(.overlay)>.card {
+    transition: 400ms background ease;
+    will-change: background;
+}
+
+:not(.overlay)>.card:hover {
+    --lightness: 95%;
+    background: hsla(var(--hsl), 0.1);
+}
+
+
+/*...................thriteen...................*/
+
+
+/*WORKS PAGE*/
+
+body.work {
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+body.work div.animated {
+    animation-name: backgroundAnimation;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 30px;
+}
+
+
+/* body.work nav {
+    background-color: rgba(23, 23, 23, 0.3);
+    height: auto;
+    /* margin-bottom: 30px; */
+
+
+}
+*/
+/* body.work nav ul {
+    background-color: rgba(23, 23, 23, 0.3);
+} */
+body.work nav.work ul li a {
+    color: #ffffff;
+}
+
+/*...................fourteen...................*/
+section.fourteen {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section.fourteen div.portfo {
+    border: 3px solid #212121;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #000000;
+    margin: 10px;
+}
+section.fourteen div.portfo:nth-child(1) {
+    background-image: url(showcase/image16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.fourteen div.portfo:nth-child(2) {
+    background-image: url(showcase/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.fourteen div.portfo:nth-child(3) {
+    background-image: url(showcase/image15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.fourteen div.portfo:nth-child(4) {
+    background-image: url(showcase/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.fourteen div.portfo:nth-child(5) {
+    background-image: url(showcase/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.fourteen div.portfo:nth-child(6) {}
+section.fourteen div.portfo:hover {
+    border-color: white;
+    transition: 0.7s;
+    transition-timing-function: ease-out;
+    animation-name: background_effect;
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+/*beta class/ onclick class*/
+
+/*beta class/ onclick class*/
+section.fourteen div.portfo p {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    text-shadow: 3px 3px 3px #171717;
+}
+section.fourteen div.portfo p::after {
+    content: url("arrowright.png");
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+section.fourteen div.portfo p:hover::after {
+    animation-name: click1;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+section.fourteen div.portfo div.content {
+    width: 900px;
+    min-width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 15%;
+    display: none;
+}
+section.fourteen div.portfo div.content img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+section.fourteen div.portfo div.content img.head-image {
+    width: 900px;
+    border-radius: 30px;
+}
+section.fourteen div.portfo div.content pre {
+    width: 500px;
+}
+
+/*...................fourteen...................*/
+
+/*...................fifteen...................*/
+section.fifteen {
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    padding: 20px;
+    position: relative;
+}
+
+/*...................fifteen...................*/
+
+/*WORKS PAGE*/
+
 /*...............................................................BETA-AREA...............................................................*/
 
-
 /*---ANIMATIONS---*/
-
 @keyframes colorChanger {
     25% {
-        color: rgb(8, 8, 196);
-    }
-    50% {
         color: blue;
     }
-    75% {
+    
+    50% {
         color: blueviolet;
     }
+    
+    75% {
+        color: rgb(179, 116, 238);
+    }
+    
     100% {
-        color: rgb(166, 88, 239);
+        color: rgb(230, 221, 238);
+    }
+}
+@keyframes click1 {
+    0% {
+        position: relative;
+        left: 13px;
+    }
+    
+    50% {
+        position: relative;
+        left: 6.5px;
+    }
+    
+    100% {
+        position: relative;
+        left: 9px;
+    }
+}
+@keyframes background_effect {
+    0% {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    25% {
+        background-repeat: repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    50% {
+        background-repeat: repeat;
+        background-size: 50px;
+    }
+    
+    75% {
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: center;
+    }
+    
+    100% {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@keyframes slide_in {
+    0% {
+        opacity: 0
+    }
+    
+    10% {
+        opacity: 0.2;
+    }
+    
+    20% {
+        opacity: 0.3;
+    }
+    
+    30% {
+        opacity: 0.4;
+    }
+    
+    40% {
+        opacity: 0.5;
+    }
+    
+    50% {
+        opacity: 0.6;
+    }
+    
+    50% {
+        opacity: 0.7;
+    }
+    
+    70% {
+        opacity: 0.8;
+    }
+    
+    80% {
+        opacity: 0.9;
+    }
+    
+    90% {
+        opacity: 1;
+    }
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url(showcase/image16.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+    
+    25% {
+        background-image: url(showcase/image4.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+    
+    50% {
+        background-image: url(showcase/image15.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+    
+    75% {
+        background-image: url(showcase/image4.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+    
+    100% {
+        background-image: url(showcase/image8.jpg);
+        background-size: cover;
+        background-position: top center;
     }
 }
