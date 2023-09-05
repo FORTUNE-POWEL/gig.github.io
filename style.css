@@ -1221,6 +1221,25 @@ body.work div.animated {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     margin-bottom: 30px;
+    width: 100%;
+    height: 113.8%;
+    min-height: 600px;
+}
+
+body.work div.animated div.work_grid {
+    display: grid;
+    grid-template-columns: 15% 22.5% 25% 22.5% 15%;
+    background-color: rgba(207, 207, 207, 0.5);
+    width: 100%;
+    height: 113.8%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+body.work div.animated div.work_grid div.mini_work_grid {
+    border-left: 1px solid rgba(159, 159, 159, 0.7);
 }
 
 
@@ -1286,7 +1305,8 @@ section.fourteen div.portfo:nth-child(5) {
     background-size: cover;
     background-position: center;
 }
-section.fourteen div.portfo:nth-child(6) {}
+
+/* section.fourteen div.portfo:nth-child(6) {} */
 section.fourteen div.portfo:hover {
     border-color: white;
     transition: 0.7s;
@@ -1349,7 +1369,7 @@ section.fourteen div.portfo div.content pre {
 
 /*...................fifteen...................*/
 section.fifteen {
-    height: 100%;
+    height: 90%;
     width: 100%;
     min-height: 600px;
     padding: 20px;
