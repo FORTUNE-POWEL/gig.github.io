@@ -1,0 +1,107 @@
+    body.details {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    div.content {
+        width: 900px;
+        margin: auto;
+        min-width: 500px;
+        padding: 20px;
+        position: block;
+        top: 250px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        left: 15%;
+        /* display: none; */
+    }
+    
+    div.content img {
+        width: 400px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    div.content img.head-image {
+        width: 900px;
+        border-radius: 10px;
+    }
+    
+    div.content pre {
+        width: 500px;
+    }
+    /*................................sixteen........................*/
+    
+    section.sixteen div.drop_down {
+        position: relative;
+        text-align: left;
+        display: inline-block;
+        left: 30px;
+    }
+    
+    section.sixteen div.drop_down span {
+        text-decoration: none;
+        color: #555555;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        /* box-shadow: 0 17px 27px #555555; */
+    }
+    
+    section.sixteen div.drop_down span:hover {
+        cursor: default;
+    }
+    
+    section.sixteen div.drop_down span:hover img {
+        cursor: pointer;
+    }
+    
+    section.sixteen div.drop_down span::after {
+        content: "";
+        width: 0px;
+        /* padding: 10px; */
+        border-bottom: 3px solid #555555;
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+        transition: all 0.25s;
+    }
+    
+    section.sixteen div.drop_down span:hover::after {
+        width: 110px;
+    }
+    
+    section.sixteen div.drop_down ul {
+        display: none;
+        /* min-width: 19     0px; */
+        z-index: 1;
+        position: absolute;
+    }
+    /* section.sixteen div.drop_down div.sub {
+        display: block;
+        height: auto;
+    }
+    
+    section.sixteen div.drop_down div.sub:hover ul {
+        display: block;
+    } */
+    
+    section.sixteen div.drop_down ul li a {
+        text-decoration: none;
+        color: #555555;
+        position: relative;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        right: 50px;
+        width: 150px;
+        border-radius: 20px;
+        transition: all 0.3s;
+    }
+    
+    section.sixteen div.drop_down ul li a:hover {
+        background-color: rgba(85, 85, 85, 0.5);
+    }
+    /*................................sixteen........................*/

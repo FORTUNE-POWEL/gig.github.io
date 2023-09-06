@@ -113,8 +113,9 @@ const initOverlayCard = (cardEl) => {
 cards.forEach(initOverlayCard);
 document.body.addEventListener("pointermove", applyOverlayMask, false);
 
+var listItems = document.getElementsByClassName("card__price").innerHTML;
+
 function dollars() {
-    var listItems = document.getElementsByClassName("card__price").innerHTML;
     listItems = "$...";
 }
 

@@ -32,20 +32,26 @@ body {
 
 nav {
     display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 10px;
-    position: relative;
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.nav_slide {
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+    box-shadow: 1px 0 5px rgb(190, 180, 180);
 }
 
 
 /*logo*/
 
 nav .left_side img {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    left: 90px;
-    top: 30px;
+    width: 52px;
+    height: 52px;
+    transform: translateX(100px);
 }
 
 
@@ -54,12 +60,16 @@ nav .left_side img {
 
 /* menue*/
 
+nav .right_side {
+    text-align: left;
+}
+
 nav .right_side ul {
     list-style-type: none;
     display: inline-flex;
-    position: relative;
+    /* position: relative;
     right: 90px;
-    top: 30px;
+    top: 30px; */
     font-size: 15px;
     text-align: right;
 }
@@ -68,9 +78,7 @@ nav .right_side ul li a {
     text-decoration: none;
     padding: 12px 15px;
     margin: auto 5px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 3px 3px 3px #171717;
+    color: #171717;
 }
 
 
@@ -1339,7 +1347,8 @@ section.fourteen div.portfo p:hover::after {
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
 }
-section.fourteen div.portfo div.content {
+
+/* section.fourteen div.portfo div.content {
     width: 900px;
     min-width: 500px;
     padding: 20px;
@@ -1350,21 +1359,22 @@ section.fourteen div.portfo div.content {
     flex-wrap: wrap;
     justify-content: space-around;
     left: 15%;
-    display: none;
+    /* display: none; */
+
 }
 section.fourteen div.portfo div.content img {
     width: 400px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 section.fourteen div.portfo div.content img.head-image {
     width: 900px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 section.fourteen div.portfo div.content pre {
     width: 500px;
 }
-
+*/
 /*...................fourteen...................*/
 
 /*...................fifteen...................*/
@@ -1387,15 +1397,12 @@ section.fifteen {
     25% {
         color: blue;
     }
-    
     50% {
         color: blueviolet;
     }
-    
     75% {
         color: rgb(179, 116, 238);
     }
-    
     100% {
         color: rgb(230, 221, 238);
     }
@@ -1405,12 +1412,10 @@ section.fifteen {
         position: relative;
         left: 13px;
     }
-    
     50% {
         position: relative;
         left: 6.5px;
     }
-    
     100% {
         position: relative;
         left: 9px;
@@ -1421,24 +1426,20 @@ section.fifteen {
         background-repeat: no-repeat;
         background-position: center;
     }
-    
     25% {
         background-repeat: repeat;
         background-size: contain;
         background-position: center;
     }
-    
     50% {
         background-repeat: repeat;
         background-size: 50px;
     }
-    
     75% {
         background-repeat: no-repeat;
         background-size: 200px;
         background-position: center;
     }
-    
     100% {
         background-repeat: no-repeat;
         background-size: cover;
@@ -1449,39 +1450,30 @@ section.fifteen {
     0% {
         opacity: 0
     }
-    
     10% {
         opacity: 0.2;
     }
-    
     20% {
         opacity: 0.3;
     }
-    
     30% {
         opacity: 0.4;
     }
-    
     40% {
         opacity: 0.5;
     }
-    
     50% {
         opacity: 0.6;
     }
-    
     50% {
         opacity: 0.7;
     }
-    
     70% {
         opacity: 0.8;
     }
-    
     80% {
         opacity: 0.9;
     }
-    
     90% {
         opacity: 1;
     }
@@ -1492,25 +1484,21 @@ section.fifteen {
         background-size: cover;
         background-position: top center;
     }
-    
     25% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     50% {
         background-image: url(showcase/image15.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     75% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     100% {
         background-image: url(showcase/image8.jpg);
         background-size: cover;
