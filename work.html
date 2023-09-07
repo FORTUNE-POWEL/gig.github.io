@@ -7,6 +7,7 @@
     <meta-veiwport width="initial-scale"></meta-veiwport>
     <meta name="Veiwport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascripit" src="navscroll.js"> </script>
 
 
 </head>
@@ -17,18 +18,18 @@
     <!--container for the background animation-->
     <div class="animated">
         <!--the background work-->
-        <div class="work_grid">
+        <!-- <div class="work_grid">
             <div class="mini_work_grid"></div>
             <div class="mini_work_grid"></div>
             <div class="mini_work_grid"></div>
             <div class="mini_work_grid"></div>
             <div class="mini_work_grid"></div>
-        </div>
+        </div> -->
         <!--the background work-->
-        <nav>
+        <nav id="main_nav">
             <!--LOGO-->
             <div class="left_side">
-                <img src="w3.jpeg" alt="">
+                <img src="logo_dew.png" alt="">
             </div>
             <!--LOGO-->
 
@@ -39,13 +40,16 @@
                         <a href="index.html">About</a>
                     </li>
                     <li>
-                        <a href="serviceWorkContact.html">Service</a>
+                        <a href="services.html">Service</a>
                     </li>
                     <li>
                         <a href="work.html">Work</a>
                     </li>
                     <li>
                         <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Pricing</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +72,7 @@
 
     <!-- ....................SECTION FOURTEEN...............-->
     <section class="fourteen">
-        <div class="portfo">
+        <div class="portfo" onclick="window.open('logos.html')">
             <p>Logos</p>
 
             <!-- <div class="content" id="content1">
@@ -85,21 +89,21 @@
                 <img src="car.jpg" alt="car">
             </div> -->
         </div>
-        <div class="portfo" onclick="window.open('index.html')">
+        <div class="portfo" onclick="window.open('packaging.html')">
             <p>packaging</p>
         </div>
-        <div class="portfo">
+        <div class="portfo" onclick="window.open('cafe_pap.html')">
             <p>Cafe pap</p>
         </div>
 
-        <div class="portfo">
+        <div class="portfo" onclick="window.open('coca_cola.html')">
             <p>Coca-cola</p>
         </div>
 
-        <div class="portfo">
+        <div class="portfo" onclick="window.open('ads.html')">
             <p>Ads random</p>
         </div>
-        <div class="portfo">
+        <div class="portfo" onclick="window.history.back()">
             <p>back</p>
         </div>
     </section>

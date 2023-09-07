@@ -105,3 +105,253 @@
         background-color: rgba(85, 85, 85, 0.5);
     }
     /*................................sixteen........................*/
+    /*SERVICE PAGE*/
+    /*................................TWENTY........................*/
+    
+    section.twenty {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto 100px;
+        padding: 0 20px;
+        width: 1080px;
+    }
+    
+    section.twenty h2 {
+        font-size: 60px;
+    }
+    
+    section.twenty p {
+        font-size: 20px;
+        border-left: 3px solid #555555;
+        padding-left: 30px;
+    }
+    /*................................TWENTY........................*/
+    /*................................TWENTY one........................*/
+    
+    section.twenty_one {
+        width: 1080px;
+        margin: 0 auto 100px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    section.twenty_one img {}
+    /*................................TWENTY one........................*/
+    /*................................TWENTY twp........................*/
+    
+    section.twenty_two {
+        width: 1080px;
+        margin: 0 auto 100px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        /* margin: 5%;
+        column-gap: 5%; */
+        text-align: center;
+    }
+    
+    section.twenty_two div {
+        width: 100%;
+        height: 100px;
+        border-right: 1px solid rgba(85, 85, 85, 0.5);
+        margin: auto;
+    }
+    
+    section.twenty_two div:last-child {
+        border: none;
+    }
+    /*................................TWENTY twp........................*/
+    /*................................TWENTY three........................*/
+    
+    section.twenty_three {
+        height: 100%;
+        width: 100%;
+        background-image: url(car.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 150px;
+    }
+    
+    section.twenty_three div {
+        display: block;
+        height: 720px;
+    }
+    /*................................TWENTY three........................*/
+    /*................................TWENTY four........................*/
+    
+    section.twenty_four {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 60px auto 100px;
+        width: 1080px;
+    }
+    
+    section.twenty_four h2 {
+        font-size: 60px;
+    }
+    
+    section.twenty_four h2 span {
+        color: #555555;
+    }
+    
+    section.twenty_four p {
+        font-size: 20px;
+        border-left: 3px solid #555555;
+        padding-left: 30px;
+    }
+    /*...
+    /*................................TWENTY four........................*/
+    /*................................TWENTY five........................*/
+    
+    section.twenty_five {
+        margin: 100px auto 100px;
+        /* padding: 50px; */
+        text-align: center;
+        width: 1080px;
+    }
+    
+    section.twenty_five button {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        background-color: #555555;
+        border: none;
+        padding: 20px 25px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    /*................................TWENTY five........................*/
+    /*................................TWENTY six........................*/
+    
+    section.twenty_six {
+        height: 100%;
+        min-height: 720px;
+        width: 100%;
+        background-color: #555555;
+        /* background-image: url(car.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    section.twenty_six div {
+        display: block;
+        color: white;
+        text-transform: capitalize;
+        font-size: 100px;
+        /* width: 200px; */
+        text-align: center;
+        margin: auto;
+        transform: translateY(250px);
+    }
+    /*................................TWENTY six........................*/
+    /*................................TWENTY seven.......................*/
+    
+    section.twenty_seven {
+        margin: 0 auto 100px;
+        width: 1080px;
+        margin-bottom: 100px;
+    }
+    
+    section.twenty_seven h2 {
+        font-size: 60px;
+        margin-left: 40px;
+    }
+    
+    section.twenty_seven h2 span {
+        color: #555555;
+    }
+    
+    section.twenty_seven div {
+        height: 720px;
+        width: inherit;
+    }
+    /*................................TWENTY seven.......................*/
+    /*................................TWENTY EIGHT.......................*/
+    
+    section.twenty_eight {
+        width: 1080px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        /* margin: 5%;
+        column-gap: 5%; */
+        /* text-align: center; */
+    }
+    
+    section.twenty_eight div {
+        width: 100%;
+        /* height: 100px; */
+        border-right: 1px solid rgba(85, 85, 85, 0.13);
+        margin: auto;
+        padding: 25px;
+    }
+    
+    section.twenty_eight div:last-child {
+        border: none;
+    }
+    
+    section.twenty_eight div h2 {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    section.twenty_eight div h2 span {
+        color: #7f7f7f;
+        background-color: rgb(246, 246, 247);
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 5px;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    section.twenty_eight div p {
+        font-weight: lighter;
+        line-height: 2em;
+        font-size: 17px;
+        color: #7f7f7f;
+    }
+    /*................................TWENTY EIGHT.......................*/
+    
+    hr {
+        width: 1040px;
+        margin: 100px auto 100px;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-color: rgb(246, 246, 247);
+        opacity: 0.2;
+    }
+    /*................................TWENTY NINE.......................*/
+    
+    section.twenty_nine {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        width: 1080px;
+        margin: 0 auto 100px;
+        column-gap: 150px;
+        /* background-color: pink; */
+        height: 600px;
+    }
+    
+    section.twenty_nine div h2 {
+        margin-left: 60px;
+        font-size: 60px;
+    }
+    
+    section.twenty_nine div h2 span {
+        color: #555555;
+    }
+    
+    section.twenty_nine div p {
+        font-size: 20px;
+        font-weight: 600;
+        transform: translateY(260px);
+    }
+    /*................................TWENTY NINE.......................*/
+    /*SERVICE PAGE*/
