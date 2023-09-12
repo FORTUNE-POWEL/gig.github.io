@@ -1,0 +1,249 @@
+            /* .........................thirty two......................... */
+            
+            section.thirty_two {
+                width: 1080px;
+                margin: auto;
+                padding-top: 150px;
+            }
+            
+            section.thirty_two h2 {
+                font-size: 55px;
+                /* font-weight: bolder; */
+            }
+            
+            section.thirty_two h2 span {
+                font-weight: lighter;
+                color: rgb(223, 83, 42);
+            }
+            
+            section.thirty_two p {
+                color: #A29FAE;
+            }
+            /* .........................thirty two......................... */
+            /* .........................thirty three......................... */
+            
+            section.thirty_three {
+                padding-top: 100px;
+                width: 1080px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 100px;
+            }
+            
+            section.thirty_three img {
+                height: 50px;
+            }
+            
+            section.thirty_three div {
+                display: grid;
+                grid-template-columns: 35% 55%;
+                align-items: center;
+                width: 210px;
+            }
+            
+            section.thirty_three div img {
+                border-radius: 50%;
+                width: 50px;
+            }
+            
+            section.thirty_three div p {
+                font-size: 12px
+            }
+            
+            section.thirty_three div p span {
+                font-weight: bold;
+                font-size: 17px;
+            }
+            /* .........................thirty three......................... */
+            /* .........................thirty four......................... */
+            
+            section.thirty_four {
+                height: 900px;
+                width: 120%;
+                position: relative;
+                margin: auto;
+                overflow: hidden;
+                /* background-color: pink; */
+                background-image: url(mid-ground.svg);
+                /*background-repeat: no-repeat;
+    background-size: cover; */
+            }
+            
+            section.thirty_four img:nth-child(1) {
+                position: absolute;
+                bottom: 0;
+                left: -100px;
+                width: 120%;
+                height: inherit;
+                display: none;
+                /* opacsity: 0.5; */
+            }
+            
+            section.thirty_four img:nth-child(2) {
+                position: absolute;
+                bottom: -300PX;
+                margin: auto;
+                left: -200px;
+                /* opacsity: 0.5; */
+            }
+            
+            section.thirty_four img:nth-child(3) {
+                position: absolute;
+                bottom: -400px;
+                left: -50px;
+                height: 1050px;
+                /* opacsity: 0.5; */
+            }
+            
+            section.thirty_four img:nth-child(4) {
+                position: absolute;
+                bottom: -300px;
+                left: 400px;
+                height: 1100px;
+                /* opacsity: 0.5; */
+            }
+            
+            section.thirty_four img:nth-child(5) {
+                position: absolute;
+                bottom: 0px;
+                left: -100px;
+                width: 120%;
+                z-index: 1;
+                /* opacsity: 0.5; */
+            }
+            /* .........................thirty four......................... */
+            /* .........................thirty five......................... */
+            
+            section.thirty_five {
+                width: 1080px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                /* background-color: pink; */
+                margin: auto;
+                padding-top: 100px;
+            }
+            
+            section.thirty_five div h2 {
+                font-size: 55px;
+                text-transform: capitalize;
+            }
+            
+            section.thirty_five div h2 span {
+                font-weight: lighter;
+                color: rgb(223, 83, 42);
+            }
+            
+            section.thirty_five div p {
+                color: #A29FAE;
+            }
+            /* .........................thirty five......................... */
+            /* .........................thirty six......................... */
+            
+            section.thirty_six {
+                width: 1080px;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            section.thirty_six img:nth-child(1) {
+                height: 500px;
+            }
+            
+            section.thirty_six img:nth-child(2) {
+                height: 450px;
+                position: absolute;
+                left: 10px;
+                bottom: 200px;
+            }
+            
+            section.thirty_six img:nth-child(3) {
+                height: 250px;
+            }
+            
+            section.thirty_six img:nth-child(4) {
+                height: 150px;
+                /* position: absolute;
+    left: 600px; */
+                transform: translate(200px, -50px);
+            }
+            /* .........................thirty six......................... */
+            /* .........................thirty seven......................... */
+            
+            section.thirty_seven {
+                width: 1080px;
+                margin: auto;
+                padding-top: 150px;
+                text-align: center;
+            }
+            
+            section.thirty_seven h2 {
+                font-size: 55px;
+                /* font-weight: bolder; */
+            }
+            
+            section.thirty_seven h2 span {
+                font-weight: lighter;
+                color: rgb(223, 83, 42);
+            }
+            
+            section.thirty_seven p {
+                color: #A29FAE;
+            }
+            /* .........................thirty seven......................... */
+            /* .........................thirty eight......................... */
+            
+            section.thirty_eight {
+                width: 1080px;
+                margin: auto;
+                padding-top: 200px;
+                text-align: center;
+            }
+            
+            section.thirty_eight img {
+                width: inherit;
+            }
+            /* .........................thirty eight......................... */
+            /* .........................thirty nine......................... */
+            
+            section.thirty_nine {
+                width: 100%;
+                background-color: rgb(237, 180, 162);
+                z-index: -1;
+            }
+            
+            section.thirty_nine img:nth-child(1) {
+                width: 100%;
+                transform: translate(0, -550px);
+                z-index: -5;
+            }
+            
+            section.thirty_nine div.sdfgh {
+                width: 1080px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                position: relative;
+                /* z-index: 1; */
+                transform: translate(0, -50px);
+            }
+            
+            section.thirty_nine div.sdfgh div h2 {
+                color: white;
+                font-size: 55px;
+            }
+            
+            section.thirty_nine div.sdfgh div h2 span {
+                font-weight: lighter;
+                color: rgb(223, 83, 42);
+            }
+            
+            section.thirty_nine div.sdfgh div p {
+                color: white;
+            }
+            /* .........................thirty nine......................... */

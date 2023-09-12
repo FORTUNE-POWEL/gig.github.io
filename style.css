@@ -1122,7 +1122,7 @@ section.thirty_one_black div:nth-child(4) ul li a {
 /*...................footer...................*/
 
 footer {
-    display: flex;
+    /* display: flex; */
     /* grid-template-columns: 50% 50%; */
     background-color: #ffffff;
     color: black;
@@ -1180,6 +1180,19 @@ footer a {
     width: 20px;
     transform: translateY(3px);
 }
+
+
+/* tryout footer page */
+
+footer div.tryOut {
+    /* background-color: pink; */
+    width: 1200px;
+    height: 1in;
+    margin: auto;
+}
+
+
+/* tryout footer page */
 
 
 /*...................footer...................*/
