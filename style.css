@@ -1027,11 +1027,16 @@ section.twelve img {
 
 /* new insertion #1 */
 
+#mainFooter {
+    width: 100%;
+    background-color: white;
+}
+
 
 /*................................thirty_one_black .......................*/
 
 section.thirty_one_black {
-    width: 100%;
+    width: 1080px;
     display: grid;
     text-align: left;
     column-gap: 10px;
@@ -1039,7 +1044,7 @@ section.thirty_one_black {
     margin: auto;
     background-color: white;
     color: black;
-    padding: 20px 65px 20px 90px;
+    /* padding: 20px 65px 20px 90px; */
 }
 
 section.thirty_one_black div:nth-child(1) p {
