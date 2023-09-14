@@ -1,3 +1,7 @@
+            @font-face {
+                font-family: llight;
+                src: url(Poppins-Thin.ttf);
+            }
             /* .........................thirty two......................... */
             
             section.thirty_two {
@@ -12,7 +16,7 @@
             }
             
             section.thirty_two h2 span {
-                font-weight: lighter;
+                font-family: llight;
                 color: rgb(223, 83, 42);
             }
             
@@ -131,7 +135,7 @@
             }
             
             section.thirty_five div h2 span {
-                font-weight: lighter;
+                font-family: llight;
                 color: rgb(223, 83, 42);
             }
             
@@ -188,7 +192,7 @@
             }
             
             section.thirty_seven h2 span {
-                font-weight: lighter;
+                font-family: llight;
                 color: rgb(223, 83, 42);
             }
             
@@ -233,7 +237,7 @@
                 position: relative;
                 /* z-index: 1; */
                 transform: translate(0, -500px);
-                border: 3px dashed pink;
+                /* border: 3px dashed pink; */
             }
             
             section.thirty_nine div.sdfgh div h2 {
@@ -242,7 +246,7 @@
             }
             
             section.thirty_nine div.sdfgh div h2 span {
-                font-weight: lighter;
+                font-family: llight;
                 color: rgb(223, 83, 42);
             }
             
@@ -253,7 +257,7 @@
             section.thirty_nine div.ytfgh {
                 width: 1080px;
                 height: auto;
-                border: 3px dashed pink;
+                /* border: 3px dashed pink; */
                 position: relative;
                 margin: auto;
                 bottom: 0;
@@ -417,10 +421,9 @@
                 padding-bottom: 150px;
                 gap: 50px;
             }
-            
-            section.fourty_three div.oiuj div {
+            /* section.fourty_three div.oiuj div {
                 border: 3px dashed pink;
-            }
+            } */
             
             section.fourty_three div.oiuj h2 {
                 font-size: 55px;
@@ -464,10 +467,9 @@
                 row-gap: 100px;
                 position: relative;
             }
-            
-            section.fourty_four div {
+            /* section.fourty_four div {
                 border: 3px dashed pink;
-            }
+            } */
             
             section.fourty_four div:last-child {
                 width: 200%;
@@ -559,10 +561,9 @@
             section.fourty_seven h2 {
                 font-size: 55px;
             }
-            
-            section.fourty_seven div {
+            /* section.fourty_seven div {
                 border: 3px dashed pink;
-            }
+            } */
             
             section.fourty_seven h2 span {
                 font-family: llight;
@@ -588,10 +589,9 @@
                 column-gap: 50px;
                 row-gap: 200px;
             }
-            
-            section.fourty_eight div {
+            /* section.fourty_eight div {
                 border: 3px dashed pink;
-            }
+            } */
             
             section.fourty_eight p {
                 line-height: 2em;
@@ -625,10 +625,9 @@
                 column-gap: 50px;
                 row-gap: 100px;
             }
-            
-            section.fourty_nine div {
+            /* section.fourty_nine div {
                 border: 3px dashed pink;
-            }
+            } */
             
             section.fourty_nine div:nth-child(2) video {
                 width: 500px;
