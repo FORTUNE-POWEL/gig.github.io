@@ -395,3 +395,150 @@
                 width: 500px;
             }
             /* .........................fourty_two......................... */
+            /* .........................fourty_three......................... */
+            
+            section.fourty_three {
+                width: 100%;
+                height: auto;
+                background-color: #E2AB99;
+                /* position: relative; */
+                padding: 400px 0 100px 0;
+                transform: translate(0, -200px);
+            }
+            
+            section.fourty_three div.oiuj {
+                position: relative;
+                width: 1080px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                /* border: 1px dashed pink; */
+                color: white;
+                padding-bottom: 150px;
+                gap: 50px;
+            }
+            
+            section.fourty_three div.oiuj div {
+                border: 3px dashed pink;
+            }
+            
+            section.fourty_three div.oiuj h2 {
+                font-size: 55px;
+            }
+            
+            section.fourty_three div.oiuj p {
+                line-height: 2em;
+                text-wrap: stable;
+                font-size: 15px;
+            }
+            
+            section.fourty_three div.oiuj div.sjo {
+                grid-column-start: 0;
+                grid-column-end: 2;
+            }
+            
+            section.fourty_three div.oiuj div.sjo img {
+                transform: translate(-80px, 150px);
+            }
+            
+            section.fourty_three div.sjo {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                text-align: left;
+            }
+            
+            section.fourty_three div.sjo img {
+                width: 1500px;
+                transform: translate(-50px, 0);
+            }
+            /* .........................fourty_three......................... */
+            /* .........................fourty_four......................... */
+            
+            section.fourty_four {
+                width: 1080px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                column-gap: 20px;
+                row-gap: 100px;
+                position: relative;
+            }
+            
+            section.fourty_four div {
+                border: 3px dashed pink;
+            }
+            
+            section.fourty_four div:last-child {
+                width: 200%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: end;
+            }
+            
+            section.fourty_four div:last-child img {
+                width: 400px;
+            }
+            /* .........................fourty_four......................... */
+            /* .........................fourty_six......................... */
+            
+            section.fourty_six {
+                width: 100%;
+                height: auto;
+                position: relative;
+                background-color: #0F0928;
+                color: white;
+                padding: 150px 0 150px 0;
+            }
+            
+            section.fourty_six div.tyj {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                /* border: 1px dashed pink; */
+            }
+            
+            section.fourty_six div.tyj h2 {
+                font-size: 55px;
+            }
+            
+            section.fourty_six div.tyj h2 span {
+                font-family: llight;
+            }
+            
+            section.fourty_six div.tyj p {
+                line-height: 2em;
+                text-wrap: pretty;
+                color: #A29FAE;
+                font-size: 20px;
+            }
+            
+            section.fourty_six div.oik {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                /* border: 1px dashed pink; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            section.fourty_six div.oik img {
+                width: 300px;
+            }
+            
+            section.fourty_six div.tyj p.yuh {
+                font-weight: bold;
+                font-size: 13px;
+                color: white;
+            }
+            
+            section.fourty_six div.tyj p.fhqw {
+                color: white;
+                display: flex;
+                justify-content: space-between;
+            }
+            /* .........................fourty_six......................... */
