@@ -498,6 +498,8 @@
                 position: relative;
                 display: grid;
                 grid-template-columns: 50% 50%;
+                padding: 0 0 100px 0;
+                row-gap: 100px;
                 /* border: 1px dashed pink; */
             }
             
@@ -524,6 +526,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                padding: 0 0 150px 0;
             }
             
             section.fourty_six div.oik img {
@@ -542,3 +545,163 @@
                 justify-content: space-between;
             }
             /* .........................fourty_six......................... */
+            /* .........................fourty_seven......................... */
+            
+            section.fourty_seven {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                padding: 150px 0 150px 0;
+            }
+            
+            section.fourty_seven h2 {
+                font-size: 55px;
+            }
+            
+            section.fourty_seven div {
+                border: 3px dashed pink;
+            }
+            
+            section.fourty_seven h2 span {
+                font-family: llight;
+                color: #E2643F;
+            }
+            
+            section.fourty_seven p {
+                line-height: 2em;
+                text-wrap: pretty;
+                color: #A29FAE;
+                font-size: 20px;
+            }
+            /* .........................fourty_seven......................... */
+            /* .........................fourty_eight......................... */
+            
+            section.fourty_eight {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                padding: 150px 0 150px 0;
+                column-gap: 50px;
+                row-gap: 200px;
+            }
+            
+            section.fourty_eight div {
+                border: 3px dashed pink;
+            }
+            
+            section.fourty_eight p {
+                line-height: 2em;
+                text-wrap: pretty;
+                color: #A29FAE;
+                font-size: 20px;
+            }
+            
+            section.fourty_eight hr {
+                width: 550px;
+            }
+            
+            section.fourty_eight div:last-child {
+                width: 200%;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            section.fourty_eight div:last-child img {
+                width: 600px;
+            }
+            /* .........................fourty_eight......................... */
+            /* .........................fourty_nine......................... */
+            
+            section.fourty_nine {
+                width: 1080px;
+                margin: auto;
+                position: relative;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                column-gap: 50px;
+                row-gap: 100px;
+            }
+            
+            section.fourty_nine div {
+                border: 3px dashed pink;
+            }
+            
+            section.fourty_nine div:nth-child(2) video {
+                width: 500px;
+                margin: auto;
+            }
+            
+            section.fourty_nine div:nth-child(3) {
+                width: 200%;
+                text-align: center;
+            }
+            
+            section.fourty_nine div:nth-child(3) video {
+                width: 800px;
+                height: 500px;
+                margin: auto;
+            }
+            
+            section.fourty_nine h2 {
+                font-size: 55px;
+            }
+            
+            section.fourty_nine h2 span {
+                font-family: llight;
+                color: #E2643F;
+            }
+            /* .........................fourty_nine......................... */
+            /* .........................fifty......................... */
+            
+            section.fifty {
+                width: 1080px;
+                display: block;
+                position: relative;
+                margin: auto;
+                text-align: center;
+            }
+            
+            section.fifty h3 {
+                font-family: llight;
+                font-size: 55px;
+                color: rgb(48, 227, 41);
+            }
+            
+            section.fifty h2 {
+                font-size: 55px;
+            }
+            
+            section.fifty p {
+                font-size: 15px;
+                font-family: llight;
+                line-height: 2em;
+                text-wrap: pretty;
+                width: 50%;
+                margin: auto;
+            }
+            
+            section.fifty a {
+                text-decoration: none;
+                color: white;
+                background-color: rgb(48, 227, 41);
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                font-size: 15px;
+                width: 250px;
+                margin: auto;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 3px;
+                padding: 12px 15px;
+                position: relative;
+            }
+            
+            section.fifty a img {
+                height: 30px;
+            }
+            /* .........................fifty......................... */
