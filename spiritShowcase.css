@@ -296,3 +296,102 @@
                 margin: 100px;
                 transform: translateX(-200px);
             }
+            /* .........................fourty_one......................... */
+            
+            section.fourty_one {
+                width: 1080px;
+                margin: auto;
+                text-align: center;
+                position: relative;
+            }
+            
+            section.fourty_one img[src="pp.png"] {
+                width: 150px;
+            }
+            
+            section.fourty_one p {
+                font-size: 20px;
+                line-height: 2em;
+                position: relative;
+            }
+            
+            section.fourty_one p img.ytgh {
+                position: absolute;
+                bottom: -150px;
+                left: 400px;
+                z-index: -1;
+                opacity: 0.095;
+            }
+            
+            section.fourty_one p b {
+                font-size: 25px;
+            }
+            
+            section.fourty_one p span {
+                color: #A29FAE;
+            }
+            
+            section.fourty_one p span span {
+                font-weight: bold;
+            }
+            /* .........................fourty_one......................... */
+            /* .........................fourty_two......................... */
+            
+            section.fourty_two {
+                background-color: #F7F5F2;
+                width: 100%;
+                height: auto;
+                padding: 100px 0 100px 0;
+                position: relative;
+            }
+            
+            section.fourty_two div.iuyhj {
+                width: 1080px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                position: relative;
+            }
+            
+            section.fourty_two div.iuyhj div.fghio h2 {
+                font-size: 55px;
+            }
+            
+            section.fourty_two div.iuyhj div.fghio h2 span {
+                font-family: llight;
+                color: #E2643F;
+            }
+            
+            section.fourty_two div.iuyhj div.fghio p {
+                text-wrap: wrap;
+                line-break: loose;
+                color: #A29FAE;
+                line-height: 2em;
+            }
+            
+            section.fourty_two div.phoneHolder {
+                position: relative;
+                width: 1080px;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                z-index: 1;
+                transform: translate(0, 150px);
+            }
+            
+            section.fourty_two div.phoneHolder img:nth-child(1) {
+                width: 600px;
+            }
+            
+            section.fourty_two div.phoneHolder img:nth-child(2) {
+                position: absolute;
+                transform: translate(300px, 100px);
+                width: 550px;
+            }
+            
+            section.fourty_two div.phoneHolder img:nth-child(3) {
+                position: absolute;
+                transform: translate(600px, 200px);
+                width: 500px;
+            }
+            /* .........................fourty_two......................... */
