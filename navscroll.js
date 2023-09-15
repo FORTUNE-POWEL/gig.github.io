@@ -4,6 +4,7 @@ var navigationBar = document.getElementById("main_nav");
 function scrollMe() {
     if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         navigationBar.classList.add('nav_slide');
+
     } else {
         navigationBar.classList.remove('nav_slide');
     }
