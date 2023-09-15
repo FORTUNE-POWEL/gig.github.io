@@ -512,6 +512,8 @@
         flex-wrap: wrap;
         align-items: center;
         margin: 0 10px;
+        padding: 10px 0 10px 0;
+        line-height: 2em;
     }
     
     section.thirty_one div:nth-child(1) p:nth-child(1) {
