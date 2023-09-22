@@ -531,7 +531,7 @@
         Left: 3px;
     }
     
-    section.thirty_one div:nth-child(1) a {
+    section.thirty_one div:nth-child(1) a:nth-child(5) {
         text-decoration: none;
         color: #555555;
         text-transform: uppercase;
@@ -543,7 +543,7 @@
         left: 12px;
     }
     
-    section.thirty_one div:nth-child(1) a::before {
+    section.thirty_one div:nth-child(1) a:nth-child(5)::before {
         content: '';
         position: absolute;
         top: 1px;
@@ -554,7 +554,7 @@
         transition: all 0.3s;
     }
     
-    section.thirty_one div:nth-child(1) a:hover::before {
+    section.thirty_one div:nth-child(1) a:nth-child(5):hover::before {
         right: 1px;
         transition: all 0.3s;
     }
