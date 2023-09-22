@@ -8,17 +8,17 @@
         <meta name="Veiwport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="detailStyle.css">
-        <link rel="stylesheet" type="text/css" href="pricingStyle.css">
-
+        <link rel="stylesheet" href="contactStyles.css" rel="stylesheet">
+        <script type="text/javascripit" src="navscroll.js"> </script>
 
 </head>
 
-<body class="serviceWorkContact">
+<body class="details">
     <!-- ....................Top NAVIGATION BAR...............-->
     <nav id="main_nav">
         <!--LOGO-->
         <div class="left_side">
-            <img src="w3.jpeg" alt="">
+            <img src="logo_dew.png" alt="">
         </div>
         <!--LOGO-->
 
@@ -29,7 +29,7 @@
                     <a href="index.html">About</a>
                 </li>
                 <li>
-                    <a href="serviceWorkContact.html">Service</a>
+                    <a href="services.html">Service</a>
                 </li>
                 <li>
                     <a href="work.html">Work</a>
@@ -47,58 +47,90 @@
     </nav>
     <!-- ....................Top NAVIGATION BAR...............-->
 
-    <section class="thirteen">
-        <main class="main flow">
-            <h1 class="main__heading">our service packaging</h1>
-            <div class="main__cards cards">
-                <div class="cards__inner">
-                    <div class="cards__card card">
-                        <h2 class="card__heading">Basic</h2>
-                        <p class="card__price">$...</p>
-                        <ul role="list" class="card__bullets flow">
-                            <li>Access to standard...</li>
-                            <li>Email support...</li>
-                        </ul>
-                        <a href="#basic" class="card__cta cta">Get Started</a>
-                    </div>
 
-                    <div class="cards__card card">
-                        <h2 class="card__heading">Pro</h2>
-                        <p class="card__price">$...</p>
-                        <ul role="list" class="card__bullets flow">
-                            <li>Access to advanced...</li>
-                            <li>Priority...</li>
-                            <li>Exclusive access to...</li>
-                        </ul>
-                        <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
-                    </div>
+    <!--....................................service layout.............................-->
+    <div class="service_layout">
+        <section class="sixty">
+            <h2><img src="ltalk.svg" alt=""> &nbsp;&nbsp;&nbsp;&nbsp; Let's talk</h2>
 
-                    <div class="cards__card card">
-                        <h2 class="card__heading">Ultimate</h2>
-                        <p class="card__price">$...</p>
-                        <ul role="list" class="card__bullets flow">
-                            <li>Access to all...</li>
-                            <li>24/7 Priority...</li>
-                            <li>1-on-1 ...</li>
-                            <li>Exclusive content and...</li>
-                        </ul>
-                        <a href="#ultimate" class="card__cta cta">Go Ultimate</a>
+            <p>
+                We are here to help you with your next project, whether it be a brand new website or an existing one that needs some work done on the front <a href="index.html">dezignedworks.co</a>
+            </p>
+
+            <form action="">
+                <label for="name">Name</label> <br>
+                <input title="name" type="text" name="name" id="" placeholder="Dan">
+                <br>
+                <label for="Cname">Company</label> <br>
+                <input title="company name" type="text" name="name" id="" placeholder="Earth, Inc">
+                <br>
+
+                <div class="telss">
+                    <div>
+                        <label for="email">Email</label> <br>
+                        <input type="email" title="email" placeholder="johnny@yahoo.com">
+                    </div>
+                    <div>
+                        <label for="tel">Phone Number</label> <br>
+                        <input type="number" title="tel" placeholder="+256 555 555 555">
                     </div>
                 </div>
 
-                <div class="overlay cards__inner"></div>
-            </div>
-        </main>
-    </section>
+                <label for="description">Project Description</label> <br>
+                <textarea name="description" id="" cols="30" rows="5" placeholder="we need to laund Earth's new UI and  improves userbility of key user flows such as climate, health and orbital escaping velocity..."></textarea>
+
+                <br>
+                <br>
+
+                <label for="radios">Project budget</label>
+                <div class="yuwj" name="radios">
+                    <label for="" class="boop">
+                        <input type="radio" class="boop-input" name="budget">
+                        <span class="boops"></span>
+                        <span>$25k - $50K</span>
+                    </label>
+
+                    <label for="" class="boop">
+                        <input type="radio" class="boop-input" name="budget">
+                        <span class="boops"></span>
+                        <span>$50k - $100K</span>
+                    </label>
+
+                    <label for="" class="boop">
+                        <input type="radio" class="boop-input" name="budget">
+                        <span class="boops"></span>
+                        <span>$100k - $300K</span>
+                    </label>
+
+                    <label for="" class="boop">
+                        <input type="radio" class="boop-input" name="budget">
+                        <span class="boops"></span>
+                        <span>$300K+</span>
+                    </label>
+                </div>
+
+                <br>
+                <label for="optionss">How did you know about us?</label>
+                <select name="optionss" id="">
+    
+                    <option value="">Dribbble</option>
+                    <option value="">Word of mouth</option>
+                    <option value="">Word of mouth</option>
+                    <option value="">Word of mouth</option>
+                    <option value="">Word of mouth</option>
+                    <option value="">Word of mouth</option>
+                    <option value="">Word of mouth</option>
+                </select>
+
+            </form>
+
+        </section>
 
 
-    <!--.................................................................................BETA-AREA........................................................................................-->
 
-    <!-- section thrity one -->
-    <div id="mainFooter">
-        <!-- new insertion #1 -->
 
-        <section class="thirty_one_black ">
+
+        <section class="thirty_one ">
             <div>
                 <p><img src="logo_dew.png " alt=" "> &nbsp; Dezigned Work</p>
                 <p>
@@ -133,21 +165,21 @@
                     <li><a href=" ">Figma Design Experts</a></li>
                     <li><a href=" ">Metaverse, AR &VR</a></li>
                     <li><a href=" ">Video Production,
-                            Explainer & Teasers</a></li>
+                        Explainer & Teasers</a></li>
                     <li><a href=" ">Webflow Agency</a></li>
                     <li><a href=" ">3D Art & 3D Motion</a></li>
                     <li><a href=" ">Design Your Brand</a></li>
                 </ul>
             </div>
         </section>
-
-        <!-- new insertion #1 -->
     </div>
-    <!-- section thrity one -->
-    <container class="beta-area" id="beta-area">
+    <!--....................................service layout.............................-->
+
+    <!--.................................................................................BETA-AREA........................................................................................-->
+
+    <container class=" beta-area ">
 
         <footer>
-
             <!-- <div>
                 <p><img src="location.png " alt=" " class="fIcon "> Kampala, Uganda</p>
                 <p>&copy; 2023 Dezigned Work. All Right Reserved</p>
@@ -161,7 +193,7 @@
                 <a href=" "><img src="tiktok.png " alt=" " class="fIcons "></a>
             </div> -->
 
-            <div class="tryOut">
+            <div class="tryOut ">
                 <div>
                     <p><img src="location.png " alt=" " class="fIcon "> Kampala, Uganda</p>
                     <p>&copy; 2023 Dezigned Work. All Right Reserved</p>
@@ -178,9 +210,10 @@
             </div>
         </footer>
     </container>
+
     <!--.................................................................................BETA-AREA........................................................................................-->
-    <script src="navscroll.js"></script>
+    <script src=" navscroll.js "></script>
 </body>
-<script src="script.js"></script>
+<script src=" script.js "></script>
 
 </html>
