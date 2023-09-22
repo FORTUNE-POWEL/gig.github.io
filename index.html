@@ -7,6 +7,7 @@
     <meta-veiwport width="initial-scale">
         <meta name="Veiwport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -97,7 +98,7 @@
 
         <!--.................section three............................-->
         <section class="three">
-            <marquee behavior="alternate" direction="left">
+            <marquee direction="left" loop="">
                 <img src="udemy white.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src="figma.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src="Microsoft_Office_365_Logo_white_text.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -111,7 +112,7 @@
         <!--.................section three............................-->
 
         <!--.................section four............................-->
-        <section class="four">
+        <section class="four" data-aos="zoom-in-left">
 
             <h2>OUR SERVICES</h2>
 
@@ -204,7 +205,7 @@
 
         <!--.................section five............................-->
 
-        <section class="five">
+        <section class="five" data-aos="zoom-in-right">
             <div class="five_left">
 
                 <h2>About us</h2>
@@ -250,7 +251,7 @@
 
 
         <!--.................section six............................-->
-        <section class="six">
+        <section class="six" data-aos="zoom-in-left">
             <div class="six_right">
                 <h2>our process</h2>
                 <p>With this process. MOOD enssurres a commprihasicve and collaborative approach to <br>deliver exceptional deign solutions that align with your brand's vision and engage <br> your target audience effectively
@@ -289,7 +290,7 @@
 
         <!--.................section seven............................-->
 
-        <section class="seven">
+        <section class="seven" data-aos="zoom-in-right">
             <h2>Our Team</h2>
             <p>most of the briliant minds behind MOOD, a passionate team <br> dedicated to the crafting extraordinary design experinces.
             </p>
@@ -329,7 +330,7 @@
         <!--.................section seven............................-->
 
         <!--.................section eight............................-->
-        <section class="eight">
+        <section class="eight" data-aos="zoom-in-left">
             <h2>our projects</h2>
             <p>explore or divirse visually stunnin portifolio presented <br> in a capturing corousel leaving a lasting impression
             </p>
@@ -496,6 +497,12 @@
     </container>
     <!--.................................................................................BETA-AREA........................................................................................-->
     <script src="navscroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 400
+        });
+    </script>
 </body>
 <script src="script.js"></script>
 
