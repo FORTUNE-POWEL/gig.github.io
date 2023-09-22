@@ -37,6 +37,10 @@ section.sixty form {
     margin: auto;
 }
 
+section.sixty form label {
+    color: #658260;
+}
+
 section.sixty form input {
     width: 100%;
     padding: 15px;
@@ -120,4 +124,5 @@ section.sixty form button {
     background-color: #30E329;
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
