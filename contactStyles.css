@@ -101,3 +101,23 @@ label.boop {
     left: 0;
     right: 0;
 }
+
+section.sixty form select {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(48, 227, 41, 0.1);
+    margin: 10px 0 40px 0;
+}
+
+section.sixty form button {
+    padding: 15px 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #30E329;
+    color: white;
+    font-size: 12px;
+}
