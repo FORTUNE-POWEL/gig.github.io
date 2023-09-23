@@ -760,7 +760,8 @@
             /* background-image: url(car.jpg);
         background-repeat: no-repeat;
         background-size: cover; */
-            padding-top: 150px;
+            margin-top: 10px;
+            transform: translateY(150px);
         }
         section.twenty_three img {
             display: block;
