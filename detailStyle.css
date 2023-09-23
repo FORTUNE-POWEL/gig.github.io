@@ -117,13 +117,14 @@
     }
     
     section.twenty h2 {
-        font-size: 55px;
+        font-size: 36px;
     }
     
     section.twenty p {
         font-size: 20px;
         border-left: 3px solid rgb(48, 227, 41);
         padding-left: 30px;
+        text-wrap: stable;
     }
     /*................................TWENTY........................*/
     /*................................TWENTY one........................*/
@@ -580,3 +581,520 @@
     }
     /*................................thirty_one.......................*/
     /*SERVICE PAGE*/
+    /* ............................................media queries........................................... */
+    
+    @media all and (max-width: 985px) {
+        body.details {
+            background-color: pink;
+        }
+        div.content {
+            width: 900px;
+            margin: auto;
+            min-width: 500px;
+            padding: 20px;
+            position: block;
+            top: 250px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            left: 15%;
+            /* display: none; */
+        }
+        div.content img {
+            width: 400px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        div.content img.head-image {
+            width: 900px;
+            border-radius: 10px;
+        }
+        div.content pre {
+            width: 500px;
+        }
+        /*................................sixteen........................*/
+        section.sixteen div.drop_down {
+            position: relative;
+            text-align: left;
+            display: inline-block;
+            left: 30px;
+        }
+        section.sixteen div.drop_down span {
+            text-decoration: none;
+            color: #555555;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            /* box-shadow: 0 17px 27px #555555; */
+        }
+        section.sixteen div.drop_down span:hover {
+            cursor: default;
+        }
+        section.sixteen div.drop_down span:hover img {
+            cursor: pointer;
+        }
+        section.sixteen div.drop_down span::after {
+            content: "";
+            width: 0px;
+            /* padding: 10px; */
+            border-bottom: 3px solid #555555;
+            position: absolute;
+            bottom: 0px;
+            left: 10px;
+            transition: all 0.25s;
+        }
+        section.sixteen div.drop_down span:hover::after {
+            width: 110px;
+        }
+        section.sixteen div.drop_down ul {
+            display: none;
+            /* min-width: 19     0px; */
+            z-index: 1;
+            position: absolute;
+        }
+        /* section.sixteen div.drop_down div.sub {
+        display: block;
+        height: auto;
+    }
+    
+    section.sixteen div.drop_down div.sub:hover ul {
+        display: block;
+    } */
+        section.sixteen div.drop_down ul li a {
+            text-decoration: none;
+            color: #555555;
+            position: relative;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            right: 50px;
+            width: 150px;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        section.sixteen div.drop_down ul li a:hover {
+            background-color: rgba(85, 85, 85, 0.5);
+        }
+        /*................................sixteen........................*/
+        /*SERVICE PAGE*/
+        /*................................TWENTY........................*/
+        section.twenty {
+            display: grid;
+            grid-template-columns: 100%;
+            margin: 0 auto 100px;
+            padding: 0 20px;
+            width: 100%;
+        }
+        section.twenty h2 {
+            font-size: 36px;
+        }
+        section.twenty p {
+            font-size: 17px;
+            border-left: 3px solid rgb(48, 227, 41);
+            padding-left: 30px;
+            text-wrap: stable;
+        }
+        /*................................TWENTY........................*/
+        /*................................TWENTY one........................*/
+        section.twenty_one {
+            width: 100%;
+            height: 200px;
+            margin: 100px auto 100px;
+            padding: 0;
+            text-align: center;
+            position: relative;
+        }
+        section.twenty_one img {
+            position: absolute;
+            height: 150px;
+        }
+        section.twenty_one img:nth-child(1) {
+            left: -110px;
+            bottom: 100px;
+        }
+        section.twenty_one img:nth-child(2) {
+            left: 70px;
+            bottom: 130px;
+        }
+        section.twenty_one img:nth-child(3) {
+            left: 20px;
+            bottom: 90px;
+        }
+        section.twenty_one img:nth-child(4) {
+            left: 40px;
+            bottom: 85px;
+        }
+        /* section.twenty_one img {} */
+        /*................................TWENTY one........................*/
+        /*................................TWENTY twp........................*/
+        section.twenty_two {
+            width: 100%;
+            margin: 0 auto 10px;
+            display: grid;
+            grid-template-columns: 45% 45%;
+            /* margin: 5%;*/
+            column-gap: 5%;
+            text-align: center;
+            align-items: center;
+        }
+        section.twenty_two div img {
+            height: 60%;
+        }
+        section.twenty_two div {
+            width: 100%;
+            height: 100px;
+            /* border-right: 1px solid rgba(148, 147, 147, 0.5); */
+            margin: auto;
+            text-align: center;
+            border: none;
+        }
+        section.twenty_two div:last-child {
+            border: none;
+        }
+        /*................................TWENTY twp........................*/
+        /*................................TWENTY three........................*/
+        section.twenty_three {
+            height: 100%;
+            width: 100%;
+            background-color: #F7F7F7;
+            /* background-image: url(car.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; */
+            margin-top: 150px;
+        }
+        section.twenty_three img {
+            display: block;
+            height: 120%;
+            width: 100%;
+        }
+        /*................................TWENTY three........................*/
+        /*................................TWENTY four........................*/
+        section.twenty_four {
+            display: grid;
+            grid-template-columns: 90%;
+            width: 100%;
+            padding: 5%;
+        }
+        section.twenty_four h2 {
+            font-size: 36px;
+        }
+        section.twenty_four h2 span {
+            color: rgb(48, 227, 41);
+        }
+        section.twenty_four p {
+            font-size: 17px;
+            border-left: 3px solid rgb(48, 227, 41);
+            padding-left: 30px;
+            text-wrap: stable;
+        }
+        /*...
+    /*................................TWENTY four........................*/
+        /*................................TWENTY five........................*/
+        section.twenty_five {
+            margin: 100px auto 100px;
+            /* padding: 50px; */
+            text-align: center;
+            width: 1080px;
+        }
+        section.twenty_five button {
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(48, 227, 41);
+            border: none;
+            padding: 20px 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        /*................................TWENTY five........................*/
+        /*................................TWENTY six........................*/
+        section.twenty_six {
+            height: 100%;
+            min-height: 800px;
+            width: 100%;
+            background-color: #F7F7F7;
+            /* background-image: url(car.jpg); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 200px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        section.twenty_six img {
+            position: absolute;
+            margin: auto;
+        }
+        section.twenty_six img:nth-child(1) {
+            left: 250px;
+            bottom: 50px;
+            height: 650px;
+        }
+        section.twenty_six img:nth-child(2) {
+            left: 300px;
+            bottom: 190px;
+            height: 750px;
+        }
+        /* section.twenty_six div {
+        display: block;
+        color: white;
+        text-transform: capitalize;
+        font-size: 100px;
+        /* width: 200px; */
+        /* text-align: center;
+        margin: auto;
+        transform: translateY(250px);
+    } */
+        /*................................TWENTY six........................*/
+        /*................................TWENTY seven.......................*/
+        section.twenty_seven {
+            margin: 0 auto 100px;
+            width: 1080px;
+            margin-bottom: 100px;
+        }
+        section.twenty_seven h2 {
+            font-size: 55px;
+            margin-left: 40px;
+        }
+        section.twenty_seven h2 span {
+            color: rgb(48, 227, 41);
+        }
+        /*................................TWENTY seven.......................*/
+        img.stray {
+            height: 100%;
+            width: 100%;
+        }
+        /*................................TWENTY EIGHT.......................*/
+        section.twenty_eight {
+            width: 1080px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            /* margin: 5%;
+        column-gap: 5%; */
+            /* text-align: center; */
+        }
+        section.twenty_eight div {
+            width: 100%;
+            /* height: 100px; */
+            border-right: 1px solid rgba(85, 85, 85, 0.13);
+            margin: auto;
+            padding: 25px;
+        }
+        section.twenty_eight div:last-child {
+            border: none;
+        }
+        section.twenty_eight div h2 {
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        section.twenty_eight div h2 span {
+            color: rgb(48, 227, 41);
+            background-color: rgb(246, 246, 247);
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            padding: 5px;
+            display: block;
+            border-radius: 10px;
+        }
+        section.twenty_eight div p {
+            font-weight: lighter;
+            line-height: 2em;
+            font-size: 17px;
+            color: #7f7f7f;
+        }
+        /*................................TWENTY EIGHT.......................*/
+        hr {
+            width: 1040px;
+            margin: 100px auto 100px;
+            border-width: 1px;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            border-color: rgb(246, 246, 247);
+            opacity: 0.4;
+        }
+        /*................................TWENTY NINE.......................*/
+        section.twenty_nine {
+            display: grid;
+            grid-template-columns: 45% 55%;
+            width: 1080px;
+            margin: 0 auto 100px;
+            column-gap: 150px;
+            /* background-color: pink; */
+            height: 720px;
+        }
+        section.twenty_nine div h2 {
+            margin-left: 60px;
+            font-size: 55px;
+        }
+        section.twenty_nine div h2 span {
+            color: rgb(48, 227, 41);
+        }
+        section.twenty_nine video {
+            width: 350px;
+            height: 400px;
+            position: relative;
+            margin-left: 60px;
+        }
+        section.twenty_nine div p {
+            font-size: 20px;
+            font-weight: 400;
+            text-align: left;
+        }
+        section.twenty_nine div:last-child {
+            transform: translateY(390px);
+        }
+        section.twenty_nine div button {
+            padding: 5px;
+            background: none;
+            border: 2px solid #555555;
+            /* height: 40px;
+        width: 40px; */
+            transform: translate(269px, 43px);
+            border-radius: 3px;
+            margin: 0;
+        }
+        section.twenty_nine div img.quote {
+            position: absolute;
+            top: -125px;
+            left: -70px;
+        }
+        section.twenty_nine div span {
+            text-align: left;
+            text-transform: capitalize;
+        }
+        /*................................TWENTY NINE.......................*/
+        /*................................thirty.......................*/
+        section.thirty {
+            text-align: center;
+            width: 1080px;
+            height: 100%;
+            margin: 0 auto 100px;
+        }
+        section.thirty h2 {
+            color: rgb(48, 227, 41);
+            font-size: 30px;
+        }
+        section.thirty h2::first-letter {
+            text-transform: uppercase;
+        }
+        section.thirty img.logo {
+            opacity: 0.1;
+            transform: translate(0, -190px);
+            z-index: -1;
+        }
+        section.thirty p {
+            transform: translate(0, -150px);
+        }
+        section.thirty a {
+            text-decoration: none;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            background-color: rgb(48, 227, 41);
+            padding: 20px 0 20px 30px;
+            width: 250px;
+            margin: auto;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            letter-spacing: 3px;
+            align-items: center;
+        }
+        section.thirty a img {
+            width: 30px;
+            height: 30px;
+            border: 2px solid rgb(48, 227, 41);
+            border-radius: 100%;
+        }
+        section.thirty a img:nth-child(2) {
+            transform: translate(-15px, 0);
+        }
+        section.thirty a img:nth-child(3) {
+            transform: translate(-30px, 0);
+        }
+        section.thirty img.booked {
+            transform: translate(220px, 0);
+        }
+        /*................................thirty.......................*/
+        /*................................thirty_one.......................*/
+        section.thirty_one {
+            width: 1080px;
+            display: grid;
+            text-align: left;
+            column-gap: 10px;
+            grid-template-columns: 40% 20% 20% 20%;
+            margin: auto;
+        }
+        section.thirty_one div:nth-child(1) p {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0 10px;
+            padding: 10px 0 10px 0;
+            line-height: 2em;
+        }
+        section.thirty_one div:nth-child(1) p:nth-child(1) {
+            position: relative;
+            Left: -2px;
+        }
+        section.thirty_one div:nth-child(1) p img {
+            height: 50px;
+            width: 50px;
+        }
+        section.thirty_one div:nth-child(1) p:nth-child(2) {
+            position: relative;
+            Left: 3px;
+        }
+        section.thirty_one div:nth-child(1) a:nth-child(5) {
+            text-decoration: none;
+            color: #555555;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+            border: 1px solid #555555;
+            padding: 12px 15px;
+            position: relative;
+            left: 12px;
+        }
+        section.thirty_one div:nth-child(1) a:nth-child(5)::before {
+            content: '';
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            right: 165px;
+            bottom: 1px;
+            background-color: rgba(85, 85, 85, 0.23);
+            transition: all 0.3s;
+        }
+        section.thirty_one div:nth-child(1) a:nth-child(5):hover::before {
+            right: 1px;
+            transition: all 0.3s;
+        }
+        section.thirty_one div:nth-child(2) ul,
+        section.thirty_one div:nth-child(3) ul,
+        section.thirty_one div:nth-child(4) ul {
+            list-style-type: none;
+        }
+        section.thirty_one div:nth-child(2) ul li,
+        section.thirty_one div:nth-child(3) ul li,
+        section.thirty_one div:nth-child(4) ul li {
+            margin: 20px 0;
+            text-transform: capitalize;
+        }
+        section.thirty_one div:nth-child(2) ul li a,
+        section.thirty_one div:nth-child(3) ul li a,
+        section.thirty_one div:nth-child(4) ul li a {
+            text-decoration: none;
+            color: #000000;
+        }
+        /*................................thirty_one.......................*/
+        /*SERVICE PAGE*/
+    }
+    /* ............................................media queries........................................... */

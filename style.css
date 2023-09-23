@@ -236,7 +236,7 @@ section.two {
 /*...............................................................BETA-AREA...............................................................*/
 
 .beta-area {
-    transform: translateY(130px);
+    transform: translateY(100px);
     display: block;
     width: 100%;
     background-color: #171717;
