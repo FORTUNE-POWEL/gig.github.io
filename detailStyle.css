@@ -587,6 +587,12 @@
         body.details {
             background-color: pink;
         }
+        body.details p {
+            text-wrap: stable;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            font-size: 20px;
+        }
         div.content {
             width: 900px;
             margin: auto;
@@ -775,6 +781,7 @@
             grid-template-columns: 90%;
             width: 100%;
             padding: 5%;
+            transform: translateY(150px);
         }
         section.twenty_four h2 {
             font-size: 36px;
@@ -786,7 +793,6 @@
             font-size: 17px;
             border-left: 3px solid rgb(48, 227, 41);
             padding-left: 100px;
-            text-wrap: stable;
         }
         /*...
     /*................................TWENTY four........................*/
