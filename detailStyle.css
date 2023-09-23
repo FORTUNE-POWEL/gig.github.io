@@ -684,7 +684,7 @@
             display: grid;
             grid-template-columns: 100%;
             margin: 0 auto 100px;
-            padding: 0 20px;
+            padding: 100px 20px;
             width: 100%;
         }
         section.twenty h2 {
@@ -708,23 +708,23 @@
         }
         section.twenty_one img {
             position: absolute;
-            height: 150px;
+            height: 500px;
         }
         section.twenty_one img:nth-child(1) {
-            left: -110px;
-            bottom: 100px;
+            left: -350px;
+            bottom: -300px;
         }
         section.twenty_one img:nth-child(2) {
-            left: 70px;
-            bottom: 130px;
+            left: 240px;
+            bottom: -200px;
         }
         section.twenty_one img:nth-child(3) {
-            left: 20px;
-            bottom: 90px;
+            left: 90px;
+            bottom: -300px;
         }
         section.twenty_one img:nth-child(4) {
-            left: 40px;
-            bottom: 85px;
+            left: 140px;
+            bottom: -320px;
         }
         /* section.twenty_one img {} */
         /*................................TWENTY one........................*/
@@ -736,11 +736,9 @@
             grid-template-columns: 45% 45%;
             /* margin: 5%;*/
             column-gap: 5%;
+            row-gap: 50px;
             text-align: center;
             align-items: center;
-        }
-        section.twenty_two div img {
-            height: 60%;
         }
         section.twenty_two div {
             width: 100%;
