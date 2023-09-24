@@ -1506,3 +1506,4 @@ section.fifteen {
         background-position: top center;
     }
 }
+@media all and (max-width: 985px) {}

@@ -591,7 +591,10 @@
             text-wrap: stable;
             letter-spacing: 1px;
             word-spacing: 2px;
-            font-size: 20px;
+            font-size: 25px;
+        }
+        body.details h2 {
+            font-size: 50px;
         }
         div.content {
             width: 900px;
@@ -693,11 +696,7 @@
             padding: 100px 20px;
             width: 100%;
         }
-        section.twenty h2 {
-            font-size: 36px;
-        }
         section.twenty p {
-            font-size: 17px;
             border-left: 3px solid rgb(48, 227, 41);
             padding-left: 50px;
             text-wrap: stable;
@@ -780,17 +779,13 @@
             display: grid;
             grid-template-columns: 90%;
             width: 100%;
-            padding: 5%;
+            padding: 5% 5% 20%;
             transform: translateY(150px);
-        }
-        section.twenty_four h2 {
-            font-size: 36px;
         }
         section.twenty_four h2 span {
             color: rgb(48, 227, 41);
         }
         section.twenty_four p {
-            font-size: 17px;
             border-left: 3px solid rgb(48, 227, 41);
             padding-left: 100px;
         }
@@ -804,15 +799,17 @@
             width: 100%;
         }
         section.twenty_five button {
-            font-size: 25px;
+            font-size: 35px;
             font-weight: bold;
             color: white;
             background-color: rgb(48, 227, 41);
             border: none;
             padding: 20px 25px;
-            letter-spacing: 5px;
+            letter-spacing: 7px;
             text-transform: uppercase;
             cursor: pointer;
+            width: 500px;
+            height: 120px;
         }
         /*................................TWENTY five........................*/
         /*................................TWENTY six........................*/
@@ -834,12 +831,12 @@
             margin: auto;
         }
         section.twenty_six img:nth-child(1) {
-            left: 250px;
+            left: 120px;
             bottom: 50px;
             height: 650px;
         }
         section.twenty_six img:nth-child(2) {
-            left: 300px;
+            left: 170px;
             bottom: 190px;
             height: 750px;
         }
@@ -857,11 +854,10 @@
         /*................................TWENTY seven.......................*/
         section.twenty_seven {
             margin: 0 auto 100px;
-            width: 1080px;
+            width: 100%;
             margin-bottom: 100px;
         }
         section.twenty_seven h2 {
-            font-size: 55px;
             margin-left: 40px;
         }
         section.twenty_seven h2 span {
@@ -874,10 +870,11 @@
         }
         /*................................TWENTY EIGHT.......................*/
         section.twenty_eight {
-            width: 1080px;
+            width: 100%;
             margin: auto;
             display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-columns: 100%;
+            align-items: center;
             /* margin: 5%;
         column-gap: 5%; */
             /* text-align: center; */
@@ -887,21 +884,21 @@
             /* height: 100px; */
             border-right: 1px solid rgba(85, 85, 85, 0.13);
             margin: auto;
-            padding: 25px;
+            padding: 50px;
         }
         section.twenty_eight div:last-child {
             border: none;
         }
         section.twenty_eight div h2 {
-            font-size: 20px;
+            font-size: 55px;
             display: flex;
             justify-content: space-between;
         }
         section.twenty_eight div h2 span {
             color: rgb(48, 227, 41);
             background-color: rgb(246, 246, 247);
-            height: 40px;
-            width: 40px;
+            height: 80px;
+            width: 80px;
             text-align: center;
             padding: 5px;
             display: block;
@@ -910,12 +907,12 @@
         section.twenty_eight div p {
             font-weight: lighter;
             line-height: 2em;
-            font-size: 17px;
+            font-size: 40px;
             color: #7f7f7f;
         }
         /*................................TWENTY EIGHT.......................*/
         hr {
-            width: 1040px;
+            width: 100%;
             margin: 100px auto 100px;
             border-width: 1px;
             border-left: none;
@@ -927,8 +924,8 @@
         /*................................TWENTY NINE.......................*/
         section.twenty_nine {
             display: grid;
-            grid-template-columns: 45% 55%;
-            width: 1080px;
+            grid-template-columns: 100%;
+            width: 100%;
             margin: 0 auto 100px;
             column-gap: 150px;
             /* background-color: pink; */
@@ -937,6 +934,7 @@
         section.twenty_nine div h2 {
             margin-left: 60px;
             font-size: 55px;
+            text-align: left;
         }
         section.twenty_nine div h2 span {
             color: rgb(48, 227, 41);
@@ -946,56 +944,79 @@
             height: 400px;
             position: relative;
             margin-left: 60px;
+            display: none;
         }
         section.twenty_nine div p {
-            font-size: 20px;
+            font-size: 40px;
             font-weight: 400;
             text-align: left;
+            padding: 10px 50px 50px 55px;
+            margin-top: 150px;
         }
         section.twenty_nine div:last-child {
-            transform: translateY(390px);
+            transform: translateY(0px);
         }
         section.twenty_nine div button {
-            padding: 5px;
+            padding: 5px 15px;
             background: none;
             border: 2px solid #555555;
             /* height: 40px;
         width: 40px; */
-            transform: translate(269px, 43px);
+            transform: translate(55px, -20px);
             border-radius: 3px;
             margin: 0;
+            font-size: 30px;
         }
         section.twenty_nine div img.quote {
             position: absolute;
             top: -125px;
             left: -70px;
         }
-        section.twenty_nine div span {
+        section.twenty_nine div span.ooo {
             text-align: left;
             text-transform: capitalize;
+            display: flex;
+            justify-content: space-evenly;
+            width: 600px;
+            align-items: center;
+            transform: translateY(-590px);
+            margin-left: 20px;
+            font-size: 35px;
+        }
+        section.twenty_nine div span.ooo img {
+            margin: 10px;
         }
         /*................................TWENTY NINE.......................*/
         /*................................thirty.......................*/
         section.thirty {
             text-align: center;
-            width: 1080px;
+            width: 100%;
             height: 100%;
             margin: 0 auto 100px;
+            transform: translateY(50px);
+        }
+        section.thirty h3 {
+            font-size: 45px;
+            transform: translateY(200px)
         }
         section.thirty h2 {
             color: rgb(48, 227, 41);
-            font-size: 30px;
+            /* font-size: 30px; */
+            transform: translateY(150px)
         }
         section.thirty h2::first-letter {
             text-transform: uppercase;
         }
         section.thirty img.logo {
             opacity: 0.1;
-            transform: translate(0, -190px);
+            transform: translate(0, -90px);
             z-index: -1;
+            width: 300px;
         }
         section.thirty p {
-            transform: translate(0, -150px);
+            transform: translate(0, -50px);
+            padding: 50px;
+            font-size: 40px;
         }
         section.thirty a {
             text-decoration: none;
@@ -1003,26 +1024,27 @@
             flex-wrap: nowrap;
             justify-content: space-around;
             background-color: rgb(48, 227, 41);
-            padding: 20px 0 20px 30px;
-            width: 250px;
+            padding: 20px 0 20px 100px;
+            width: 550px;
             margin: auto;
             color: white;
             font-weight: bold;
-            font-size: 15px;
+            font-size: 30px;
             letter-spacing: 3px;
             align-items: center;
+            text-transform: uppercase;
         }
         section.thirty a img {
-            width: 30px;
-            height: 30px;
-            border: 2px solid rgb(48, 227, 41);
+            width: 60px;
+            height: 60px;
+            border: 5px solid rgb(48, 227, 41);
             border-radius: 100%;
         }
         section.thirty a img:nth-child(2) {
-            transform: translate(-15px, 0);
+            transform: translate(-25px, 0);
         }
         section.thirty a img:nth-child(3) {
-            transform: translate(-30px, 0);
+            transform: translate(-50px, 0);
         }
         section.thirty img.booked {
             transform: translate(220px, 0);
@@ -1030,12 +1052,15 @@
         /*................................thirty.......................*/
         /*................................thirty_one.......................*/
         section.thirty_one {
-            width: 1080px;
+            width: 80%;
             display: grid;
             text-align: left;
             column-gap: 10px;
-            grid-template-columns: 40% 20% 20% 20%;
+            grid-template-columns: 100%;
             margin: auto;
+        }
+        section.thirty_one div {
+            padding-bottom: 100px;
         }
         section.thirty_one div:nth-child(1) p {
             display: flex;
@@ -1044,6 +1069,8 @@
             margin: 0 10px;
             padding: 10px 0 10px 0;
             line-height: 2em;
+            font-size: 40px;
+            text-wrap: stable;
         }
         section.thirty_one div:nth-child(1) p:nth-child(1) {
             position: relative;
