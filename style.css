@@ -16,7 +16,7 @@ p {
 }
 
 body {
-    width: 100%;
+    /* width: 100%; */
     background-color: #F1F1F1;
     margin: 0;
     padding: none;
@@ -31,6 +31,7 @@ body {
 /*.................nav bar.......................*/
 
 nav {
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 5px;
@@ -1506,4 +1507,80 @@ section.fifteen {
         background-position: top center;
     }
 }
-@media all and (max-width: 985px) {}
+@media all and (max-width: 985px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    /*...................footer...................*/
+    footer {
+        /* display: flex; */
+        /* grid-template-columns: 50% 50%; */
+        
+        background-color: #ffffff;
+        color: black;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 15px 20px 52px;
+    }
+    footer div {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        z-index: 1;
+        color: black;
+        clear: both;
+        align-items: center;
+    }
+    footer div:nth-child(1) {
+        justify-content: space-around;
+        width: 540px;
+        margin: auto;
+        /* border: 2px solid pink; */
+        
+        position: relative;
+        align-items: center;
+    }
+    footer div:nth-child(1) p:nth-child(2) {
+        transform: translateY(2.5px);
+    }
+    footer div:nth-child(2) {
+        justify-content: end;
+        width: 540px;
+        /* border: 2px solid pink; */
+        
+        margin: auto;
+        transform: translateY(-5.5px);
+    }
+    footer a {
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0;
+        margin-top: 12.5px;
+    }
+    .fIcons {
+        width: 25px;
+        transform: translateY(3px);
+        margin: 0 15px;
+    }
+    .fIcon {
+        width: 20px;
+        transform: translateY(3px);
+    }
+    /* tryout footer page */
+    footer div.tryOut {
+        /* background-color: pink; */
+        
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    /* tryout footer page */
+    /*...................footer...................*/
+}
