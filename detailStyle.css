@@ -698,7 +698,7 @@
         }
         section.twenty p {
             border-left: 3px solid rgb(48, 227, 41);
-            padding-left: 50px;
+            padding: 50px;
             text-wrap: stable;
         }
         /*................................TWENTY........................*/
