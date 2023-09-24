@@ -168,7 +168,7 @@ section.sixty form button {
         padding: 25px 30px;
         border: none;
         background-color: white;
-        box-shadow: 0 0 60px rgba(48, 227, 41, 0.1);
+        box-shadow: 0 0 60px rgba(48, 227, 41, 0.5);
         margin: 10px 0 40px 0;
     }
     section.sixty form div.telss {
@@ -180,7 +180,7 @@ section.sixty form button {
         width: 100%;
         border: none;
         background-color: white;
-        box-shadow: 0 0 10px rgba(48, 227, 41, 0.1);
+        box-shadow: 0 0 50px rgba(48, 227, 41, 0.5);
         margin: 10px 0 40px 0;
         padding: 15px;
         font-size: 17px;
@@ -189,7 +189,7 @@ section.sixty form button {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        box-shadow: 0 0 10px rgba(48, 227, 41, 0.1);
+        box-shadow: 0 0 50px rgba(48, 227, 41, 0.5);
         margin: 10px 0 40px 0;
     }
     label.boop {
@@ -232,7 +232,7 @@ section.sixty form button {
     }
     section.sixty form select {
         width: 100%;
-        padding: 20px;
+        padding: 25px 30px;
         border: none;
         background-color: white;
         box-shadow: 0 0 10px rgba(48, 227, 41, 0.1);
