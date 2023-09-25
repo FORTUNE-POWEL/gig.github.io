@@ -769,6 +769,7 @@
                     height: 900px;
                     width: 100%;
                     position: relative;
+                    overflow: hidden;
                     margin: auto;
                     overflow: hidden;
                     /* background-color: pink; */
@@ -784,12 +785,13 @@
                     /* opacsity: 0.5; */
                 }
                 section.thirty_four img:nth-child(2) {
-                    position: absolute;
+                    position: relative;
                     /* bottom: -300PX; */
                     margin: auto;
                     border: 3px dashed blue;
                     /* left: -200px; */
                     /* opacsity: 0.5; */
+                    height: 500px;
                 }
                 section.thirty_four img:nth-child(3) {
                     position: absolute;
@@ -806,9 +808,9 @@
                 }
                 section.thirty_four img:nth-child(5) {
                     position: absolute;
-                    bottom: -10px;
+                    bottom: -12px;
                     /* left: -100px; */
-                    width: 100%;
+                    width: 110%;
                     z-index: 1;
                     border: 3px dashed blue;
                     /* opacsity: 0.5; */
@@ -816,12 +818,15 @@
                 /* .........................thirty four......................... */
                 /* .........................thirty five......................... */
                 section.thirty_five {
-                    width: 1080px;
+                    width: 100%;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     /* background-color: pink; */
                     margin: auto;
                     padding-top: 100px;
+                }
+                section.thirty_five div {
+                    padding: 50px;
                 }
                 section.thirty_five div h2 {
                     font-size: 55px;
@@ -837,22 +842,25 @@
                 /* .........................thirty five......................... */
                 /* .........................thirty six......................... */
                 section.thirty_six {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: flex;
                     flex-wrap: wrap;
                     position: relative;
                     justify-content: space-around;
                     align-items: center;
+                    padding: 50px;
                 }
                 section.thirty_six img:nth-child(1) {
                     height: 500px;
+                    left: 50px;
                 }
                 section.thirty_six img:nth-child(2) {
                     height: 450px;
                     position: absolute;
                     left: 10px;
                     bottom: 200px;
+                    transform: translate(200px, -150px);
                 }
                 section.thirty_six img:nth-child(3) {
                     height: 250px;
@@ -861,14 +869,14 @@
                     height: 150px;
                     /* position: absolute;
         left: 600px; */
-                    transform: translate(200px, -50px);
+                    transform: translate(50px, -50px);
                 }
                 /* .........................thirty six......................... */
                 /* .........................thirty seven......................... */
                 section.thirty_seven {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
-                    padding-top: 150px;
+                    padding: 150px 50px 50px 50px;
                     text-align: center;
                 }
                 section.thirty_seven h2 {
@@ -881,6 +889,7 @@
                 }
                 section.thirty_seven p {
                     color: #A29FAE;
+                    text-wrap: stable;
                 }
                 /* .........................thirty seven......................... */
                 /* .........................thirty eight......................... */
