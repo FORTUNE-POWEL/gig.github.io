@@ -4,6 +4,10 @@
             }
             /* .........................thirty two......................... */
             
+            * {
+                box-sizing: border-box;
+            }
+            
             section.thirty_two {
                 width: 1080px;
                 margin: auto;
@@ -712,7 +716,8 @@
                     src: url(Poppins-Thin.ttf);
                 }
                 body {
-                    overflow-x: hidden;
+                    overflow: hidden;
+                    width: 100%;
                 }
                 /* .........................thirty two......................... */
                 section.thirty_two {
@@ -791,7 +796,7 @@
                     position: relative;
                     /* bottom: -300PX; */
                     margin: auto;
-                    border: 3px dashed blue;
+                    /* border: 3px dashed blue; */
                     /* left: -200px; */
                     /* opacsity: 0.5; */
                     height: 500px;
@@ -800,12 +805,13 @@
                     position: absolute;
                     bottom: -400px;
                     height: 900PX;
+                    left: -50px;
                     /* opacsity: 0.5; */
                 }
                 section.thirty_four img:nth-child(4) {
                     position: absolute;
                     bottom: -300px;
-                    left: 400px;
+                    left: 300px;
                     height: 1000px;
                     /* opacsity: 0.5; */
                 }
@@ -815,7 +821,7 @@
                     /* left: -100px; */
                     width: 110%;
                     z-index: 1;
-                    border: 3px dashed blue;
+                    /* border: 3px dashed blue; */
                     /* opacsity: 0.5; */
                 }
                 /* .........................thirty four......................... */
@@ -1231,12 +1237,12 @@
                 /* .........................fourty_six......................... */
                 /* .........................fourty_seven......................... */
                 section.fourty_seven {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     display: grid;
-                    grid-template-columns: 50% 50%;
-                    padding: 150px 0 150px 0;
+                    grid-template-columns: 100%;
+                    padding: 150px 50px 150px 50px;
                 }
                 section.fourty_seven h2 {
                     font-size: 55px;
@@ -1257,7 +1263,7 @@
                 /* .........................fourty_seven......................... */
                 /* .........................fourty_eight......................... */
                 section.fourty_eight {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     display: grid;
@@ -1265,6 +1271,18 @@
                     padding: 150px 0 150px 0;
                     column-gap: 50px;
                     row-gap: 200px;
+                    align-items: center;
+                }
+                section.fourty_eight div {
+                    padding: 50px;
+                }
+                section.fourty_eight div:nth-child(1) img {
+                    width: 900px;
+                    margin: auto;
+                }
+                section.fourty_eight div:nth-child(2) {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
                 }
                 /* section.fourty_eight div {
                     border: 3px dashed pink;
@@ -1282,6 +1300,7 @@
                     width: 200%;
                     padding: 20px;
                     text-align: center;
+                    display: none;
                 }
                 section.fourty_eight div:last-child img {
                     width: 600px;
@@ -1289,29 +1308,40 @@
                 /* .........................fourty_eight......................... */
                 /* .........................fourty_nine......................... */
                 section.fourty_nine {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     column-gap: 50px;
                     row-gap: 100px;
+                    align-items: center;
                 }
                 /* section.fourty_nine div {
                     border: 3px dashed pink;
                 } */
-                section.fourty_nine div:nth-child(2) video {
-                    width: 500px;
-                    margin: auto;
+                section.fourty_nine div {
+                    padding: 50px;
                 }
-                section.fourty_nine div:nth-child(3) {
-                    width: 200%;
+                section.fourty_nine div:nth-child(2) {
                     text-align: center;
                 }
-                section.fourty_nine div:nth-child(3) video {
+                section.fourty_nine div:nth-child(2) video {
                     width: 800px;
                     height: 500px;
                     margin: auto;
+                    /* border: 3px dashed blue; */
+                }
+                section.fourty_nine div:nth-child(3) {
+                    width: 100%;
+                    text-align: center;
+                    margin: auto;
+                }
+                section.fourty_nine div:nth-child(3) video {
+                    width: inherit;
+                    height: 500px;
+                    margin: auto;
+                    /* border: 3px dashed blue; */
                 }
                 section.fourty_nine h2 {
                     font-size: 55px;
@@ -1323,7 +1353,7 @@
                 /* .........................fourty_nine......................... */
                 /* .........................fifty......................... */
                 section.fifty {
-                    width: 1080px;
+                    width: 100%;
                     display: block;
                     position: relative;
                     margin: auto;
