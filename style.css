@@ -1361,9 +1361,9 @@ section.fourteen div.portfo p:hover::after {
     flex-wrap: wrap;
     justify-content: space-around;
     left: 15%;
-    /* display: none; */
+     display: none; 
 
-}
+}*/
 section.fourteen div.portfo div.content img {
     width: 400px;
     margin: 10px;
@@ -1399,12 +1399,15 @@ section.fifteen {
     25% {
         color: blue;
     }
+    
     50% {
         color: blueviolet;
     }
+    
     75% {
         color: rgb(179, 116, 238);
     }
+    
     100% {
         color: rgb(230, 221, 238);
     }
@@ -1414,10 +1417,12 @@ section.fifteen {
         position: relative;
         left: 13px;
     }
+    
     50% {
         position: relative;
         left: 6.5px;
     }
+    
     100% {
         position: relative;
         left: 9px;
@@ -1428,20 +1433,24 @@ section.fifteen {
         background-repeat: no-repeat;
         background-position: center;
     }
+    
     25% {
         background-repeat: repeat;
         background-size: contain;
         background-position: center;
     }
+    
     50% {
         background-repeat: repeat;
         background-size: 50px;
     }
+    
     75% {
         background-repeat: no-repeat;
         background-size: 200px;
         background-position: center;
     }
+    
     100% {
         background-repeat: no-repeat;
         background-size: cover;
@@ -1452,30 +1461,39 @@ section.fifteen {
     0% {
         opacity: 0
     }
+    
     10% {
         opacity: 0.2;
     }
+    
     20% {
         opacity: 0.3;
     }
+    
     30% {
         opacity: 0.4;
     }
+    
     40% {
         opacity: 0.5;
     }
+    
     50% {
         opacity: 0.6;
     }
+    
     50% {
         opacity: 0.7;
     }
+    
     70% {
         opacity: 0.8;
     }
+    
     80% {
         opacity: 0.9;
     }
+    
     90% {
         opacity: 1;
     }
@@ -1486,21 +1504,25 @@ section.fifteen {
         background-size: cover;
         background-position: top center;
     }
+    
     25% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
+    
     50% {
         background-image: url(showcase/image15.jpg);
         background-size: cover;
         background-position: top center;
     }
+    
     75% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
+    
     100% {
         background-image: url(showcase/image8.jpg);
         background-size: cover;
@@ -1511,20 +1533,22 @@ section.fifteen {
     * {
         box-sizing: border-box;
     }
+    
     body {
         overflow-x: hidden;
     }
     /*...................footer...................*/
+    
     footer {
         /* display: flex; */
         /* grid-template-columns: 50% 50%; */
-        
         background-color: #ffffff;
         color: black;
         justify-content: space-around;
         align-items: center;
         padding: 0 15px 20px 52px;
     }
+    
     footer div {
         display: flex;
         position: relative;
@@ -1534,26 +1558,28 @@ section.fifteen {
         clear: both;
         align-items: center;
     }
+    
     footer div:nth-child(1) {
         justify-content: space-around;
         width: 540px;
         margin: auto;
         /* border: 2px solid pink; */
-        
         position: relative;
         align-items: center;
     }
+    
     footer div:nth-child(1) p:nth-child(2) {
         transform: translateY(2.5px);
     }
+    
     footer div:nth-child(2) {
         justify-content: end;
         width: 540px;
         /* border: 2px solid pink; */
-        
         margin: auto;
         transform: translateY(-5.5px);
     }
+    
     footer a {
         color: black;
         text-decoration: none;
@@ -1561,19 +1587,21 @@ section.fifteen {
         padding: 0;
         margin-top: 12.5px;
     }
+    
     .fIcons {
         width: 25px;
         transform: translateY(3px);
         margin: 0 15px;
     }
+    
     .fIcon {
         width: 20px;
         transform: translateY(3px);
     }
     /* tryout footer page */
+    
     footer div.tryOut {
         /* background-color: pink; */
-        
         width: 100%;
         height: auto;
         margin: auto;
@@ -1583,4 +1611,103 @@ section.fifteen {
     }
     /* tryout footer page */
     /*...................footer...................*/
+    /* new insertion #1 */
+    
+    #mainFooter {
+        width: 100%;
+        background-color: white;
+    }
+    /*................................thirty_one_black .......................*/
+    
+    section.thirty_one_black {
+        width: 100%;
+        display: grid;
+        text-align: left;
+        column-gap: 10px;
+        grid-template-columns: 100%;
+        margin: auto;
+        background-color: white;
+        color: black;
+        /* padding: 20px 65px 20px 90px; */
+    }
+    
+    section.thirty_one_black div {
+        margin-bottom: 50px;
+        padding: 50px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) p {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 10px;
+        padding: 10px 0 10px 0;
+        line-height: 2em;
+        font-size: 30px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) p:nth-child(1) {
+        position: relative;
+        Left: -2px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) p img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) p:nth-child(2) {
+        position: relative;
+        Left: 3px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) a:nth-child(5) {
+        text-decoration: none;
+        color: #555555;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        border: 1px solid #555555;
+        padding: 12px 15px;
+        position: relative;
+        left: 12px;
+    }
+    
+    section.thirty_one_black div:nth-child(1) a:nth-child(5)::before {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        right: 165px;
+        bottom: 1px;
+        background-color: rgba(85, 85, 85, 0.23);
+        transition: all 0.3s;
+    }
+    
+    section.thirty_one_black div:nth-child(1) a:nth-child(5):hover::before {
+        right: 1px;
+        transition: all 0.3s;
+    }
+    
+    section.thirty_one_black div:nth-child(2) ul,
+    section.thirty_one_black div:nth-child(3) ul,
+    section.thirty_one_black div:nth-child(4) ul {
+        list-style-type: none;
+    }
+    
+    section.thirty_one_black div:nth-child(2) ul li,
+    section.thirty_one_black div:nth-child(3) ul li,
+    section.thirty_one_black div:nth-child(4) ul li {
+        margin: 20px 0;
+        text-transform: capitalize;
+    }
+    
+    section.thirty_one_black div:nth-child(2) ul li a,
+    section.thirty_one_black div:nth-child(3) ul li a,
+    section.thirty_one_black div:nth-child(4) ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    /*................................thirty_one_black.......................*/
+    /* new insertion #1 */
 }
