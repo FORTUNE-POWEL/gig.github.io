@@ -711,6 +711,9 @@
                     font-family: llight;
                     src: url(Poppins-Thin.ttf);
                 }
+                body {
+                    overflow-x: hidden;
+                }
                 /* .........................thirty two......................... */
                 section.thirty_two {
                     width: 100%;
@@ -894,8 +897,8 @@
                 /* .........................thirty seven......................... */
                 /* .........................thirty eight......................... */
                 section.thirty_eight {
-                    width: 1080px;
-                    margin: auto;
+                    width: 100%;
+                    margin: 100px auto 0 auto;
                     padding-top: 200px;
                     text-align: center;
                 }
@@ -913,18 +916,21 @@
                 }
                 section.thirty_nine img:nth-child(1) {
                     width: 100%;
-                    transform: translate(0, -570px);
+                    transform: translate(0, -470px);
                     /* z-index: -5; */
                 }
                 section.thirty_nine div.sdfgh {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     position: relative;
                     /* z-index: 1; */
                     transform: translate(0, -500px);
                     /* border: 3px dashed pink; */
+                }
+                section.thirty_nine div.sdfgh div {
+                    padding: 50px;
                 }
                 section.thirty_nine div.sdfgh div h2 {
                     color: white;
@@ -936,32 +942,40 @@
                 }
                 section.thirty_nine div.sdfgh div p {
                     color: white;
+                    text-wrap: wrap;
                 }
                 section.thirty_nine div.ytfgh {
-                    width: 1080px;
+                    width: 100%;
                     height: auto;
-                    /* border: 3px dashed pink; */
+                    border: 3px dashed pink;
                     position: relative;
                     margin: auto;
                     bottom: 0;
                     text-align: center;
-                    transform: translate(0, -200px);
+                    transform: translate(0, 0);
                 }
                 section.thirty_nine div.ytfgh img:nth-child(1) {
-                    width: 490px;
-                    transform: translate(150px, 150px);
+                    width: 540px;
+                    transform: translate(-100px, 900px);
                 }
                 section.thirty_nine div.ytfgh img:nth-child(2) {
-                    width: 500px;
-                    transform: translate(-70px, 70px);
+                    width: 550px;
+                    transform: translate(140px, 30px);
+                    /* visibility: hidden; */
                 }
                 /* .........................thirty nine......................... */
                 /* .........................fourty......................... */
                 section.fourty {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
+                }
+                section.fourty div {
+                    padding: 50px;
+                }
+                section.fourty div p {
+                    text-wrap: wrap;
                 }
                 section.fourty h2 {
                     font-size: 55px;
@@ -972,17 +986,31 @@
                     color: rgb(223, 83, 42);
                 }
                 /* .........................fourty......................... */
+                .wildding {
+                    width: 100%;
+                    overflow: hidden;
+                }
                 .ifjrm {
-                    width: 1400px;
-                    margin: 100px;
-                    transform: translateX(-200px);
+                    width: 100%;
+                    overflow-x: scroll;
+                    -ms-overflow-style: none;
+                    /* scrollbar-width: none; */
+                    transform: translateY(5px);
+                }
+                div.ifjrm::-webkit-scrollbar {
+                    width: none;
+                    display: none;
+                }
+                .ifjrm img {
+                    width: 250%;
                 }
                 /* .........................fourty_one......................... */
                 section.fourty_one {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     text-align: center;
                     position: relative;
+                    padding: 50px;
                 }
                 section.fourty_one img[src="pp.png"] {
                     width: 150px;
@@ -991,13 +1019,15 @@
                     font-size: 20px;
                     line-height: 2em;
                     position: relative;
+                    text-wrap: wrap;
                 }
                 section.fourty_one p img.ytgh {
                     position: absolute;
-                    bottom: -150px;
-                    left: 400px;
+                    bottom: -120px;
+                    left: 100px;
                     z-index: -1;
                     opacity: 0.095;
+                    width: 600px;
                 }
                 section.fourty_one p b {
                     font-size: 25px;
@@ -1014,14 +1044,14 @@
                     background-color: #F7F5F2;
                     width: 100%;
                     height: auto;
-                    padding: 100px 0 100px 0;
+                    padding: 100px 50px 100px 50px;
                     position: relative;
                 }
                 section.fourty_two div.iuyhj {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     position: relative;
                 }
                 section.fourty_two div.iuyhj div.fghio h2 {
@@ -1039,7 +1069,7 @@
                 }
                 section.fourty_two div.phoneHolder {
                     position: relative;
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: flex;
                     flex-wrap: wrap;
@@ -1071,14 +1101,15 @@
                 }
                 section.fourty_three div.oiuj {
                     position: relative;
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     /* border: 1px dashed pink; */
                     color: white;
-                    padding-bottom: 150px;
+                    padding: 50px 50px 150px 50px;
                     gap: 50px;
+                    overflow: hidden;
                 }
                 /* section.fourty_three div.oiuj div {
                     border: 3px dashed pink;
@@ -1094,12 +1125,17 @@
                 section.fourty_three div.oiuj div.sjo {
                     grid-column-start: 0;
                     grid-column-end: 2;
+                    overflow: scroll;
+                }
+                section.fourty_three div.oiuj div.sjo::-webkit-scrollbar {
+                    display: none;
+                    width: none;
                 }
                 section.fourty_three div.oiuj div.sjo img {
                     transform: translate(-80px, 150px);
                 }
                 section.fourty_three div.sjo {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     text-align: left;
@@ -1111,10 +1147,10 @@
                 /* .........................fourty_three......................... */
                 /* .........................fourty_four......................... */
                 section.fourty_four {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     display: grid;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 100%;
                     column-gap: 20px;
                     row-gap: 100px;
                     position: relative;
@@ -1122,8 +1158,11 @@
                 /* section.fourty_four div {
                     border: 3px dashed pink;
                 } */
+                section.fourty_four div {
+                    padding: 50px;
+                }
                 section.fourty_four div:last-child {
-                    width: 200%;
+                    width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-evenly;
@@ -1143,12 +1182,12 @@
                     padding: 150px 0 150px 0;
                 }
                 section.fourty_six div.tyj {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     display: grid;
-                    grid-template-columns: 50% 50%;
-                    padding: 0 0 100px 0;
+                    grid-template-columns: 100%;
+                    padding: 0 50px 100px 50px;
                     row-gap: 100px;
                     /* border: 1px dashed pink; */
                 }
@@ -1165,17 +1204,19 @@
                     font-size: 20px;
                 }
                 section.fourty_six div.oik {
-                    width: 1080px;
+                    width: 100%;
                     margin: auto;
                     position: relative;
                     /* border: 1px dashed pink; */
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
-                    padding: 0 0 150px 0;
+                    align-items: center;
+                    /* padding: 0 0 150px 0; */
                 }
                 section.fourty_six div.oik img {
-                    width: 300px;
+                    width: 700px;
+                    margin: auto auto 50px auto;
                 }
                 section.fourty_six div.tyj p.yuh {
                     font-weight: bold;
