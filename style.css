@@ -3,6 +3,11 @@
     src: url('Poppins-Regular.ttf');
 }
 
+@font-face {
+    font-family: blck;
+    src: url("Poppins-Bold.ttf");
+}
+
 * {
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -783,8 +788,9 @@ section.eight p {
 /*.................section nine......................*/
 
 section.nine p.nine {
+    font-family: blck;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 1000;
     text-align: center;
     font-size: 55px;
     font-weight: 1200;

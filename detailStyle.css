@@ -126,6 +126,10 @@
         padding-left: 30px;
         text-wrap: stable;
     }
+    
+    section.twenty a {
+        display: none;
+    }
     /*................................TWENTY........................*/
     /*................................TWENTY one........................*/
     
@@ -400,6 +404,22 @@
         height: 400px;
         position: relative;
         margin-left: 60px;
+    }
+    
+    section.twenty_nine div span.ooo {
+        text-align: left;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-evenly;
+        width: 600px;
+        align-items: center;
+        transform: translate(-340px, -380px);
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    section.twenty_nine div span.ooo img {
+        display: none;
     }
     
     section.twenty_nine div p {
@@ -990,6 +1010,7 @@
         }
         section.twenty_nine div span.ooo img {
             margin: 10px;
+            display: block;
         }
         /*................................TWENTY NINE.......................*/
         /*................................thirty.......................*/
@@ -1023,7 +1044,8 @@
             padding: 50px;
             font-size: 40px;
         }
-        section.thirty a {
+        section.thirty a,
+        section.twenty a {
             text-decoration: none;
             display: flex;
             flex-wrap: nowrap;
@@ -1039,16 +1061,19 @@
             align-items: center;
             text-transform: uppercase;
         }
-        section.thirty a img {
+        section.thirty a img,
+        section.twenty a img {
             width: 60px;
             height: 60px;
             border: 5px solid rgb(48, 227, 41);
             border-radius: 100%;
         }
-        section.thirty a img:nth-child(2) {
+        section.thirty a img:nth-child(2),
+        section.twenty a img:nth-child(2) {
             transform: translate(-25px, 0);
         }
-        section.thirty a img:nth-child(3) {
+        section.thirty a img:nth-child(3),
+        section.twenty a img:nth-child(3) {
             transform: translate(-50px, 0);
         }
         section.thirty img.booked {
