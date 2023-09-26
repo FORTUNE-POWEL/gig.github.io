@@ -1,6 +1,6 @@
             @font-face {
                 font-family: llight;
-                src: url(Poppins-Thin.ttf);
+                src: url("Poppins-Thin.ttf");
             }
             /* .........................thirty two......................... */
             
@@ -713,11 +713,7 @@
             @media all and (max-width:985px) {
                 @font-face {
                     font-family: llight;
-                    src: url(Poppins-Thin.ttf);
-                }
-                body {
-                    overflow: hidden;
-                    width: 100%;
+                    src: url("Poppins-Thin.ttf");
                 }
                 /* .........................thirty two......................... */
                 section.thirty_two {
@@ -1080,7 +1076,8 @@
                     display: flex;
                     flex-wrap: wrap;
                     z-index: 1;
-                    transform: translate(0, 150px);
+                    transform: translate(-100px, 150px);
+                    /* overflow-x: hidden; */
                 }
                 section.fourty_two div.phoneHolder img:nth-child(1) {
                     width: 600px;
@@ -1131,7 +1128,9 @@
                 section.fourty_three div.oiuj div.sjo {
                     grid-column-start: 0;
                     grid-column-end: 2;
-                    overflow: scroll;
+                    overflow-x: scroll;
+                    overflow-y: hidden;
+                    height: 1400px;
                 }
                 section.fourty_three div.oiuj div.sjo::-webkit-scrollbar {
                     display: none;
@@ -1139,6 +1138,7 @@
                 }
                 section.fourty_three div.oiuj div.sjo img {
                     transform: translate(-80px, 150px);
+                    width: 2500px;
                 }
                 section.fourty_three div.sjo {
                     width: 100%;
