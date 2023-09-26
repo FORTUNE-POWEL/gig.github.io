@@ -7,6 +7,8 @@
     <meta-veiwport width="initial-scale"></meta-veiwport>
     <meta name="Veiwport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script type="text/javascript" src="navscroll.js">
     </script>
 
@@ -73,7 +75,7 @@
 
     <!-- ....................SECTION FOURTEEN...............-->
     <section class="fourteen">
-        <div class="portfo" onclick="window.open('logos.html')">
+        <div class="portfo" onclick="window.open('logos.html')" data-aos="zoom-in ">
             <p>Logos</p>
 
             <!-- <div class="content" id="content1">
@@ -90,21 +92,21 @@
                 <img src="car.jpg" alt="car">
             </div> -->
         </div>
-        <div class="portfo" onclick="window.open('packaging.html')">
+        <div class="portfo" onclick="window.open('packaging.html')" data-aos="zoom-in ">
             <p>packaging</p>
         </div>
-        <div class="portfo" onclick="window.open('cafe_pap.html')">
+        <div class="portfo" onclick="window.open('cafe_pap.html')" data-aos="zoom-in ">
             <p>Cafe pap</p>
         </div>
 
-        <div class="portfo" onclick="window.open('coca_cola.html')">
+        <div class="portfo" onclick="window.open('coca_cola.html')" data-aos="zoom-in ">
             <p>Coca-cola</p>
         </div>
 
-        <div class="portfo" onclick="window.open('ads.html')">
+        <div class="portfo" onclick="window.open('ads.html')" data-aos="zoom-in ">
             <p>Ads random</p>
         </div>
-        <div class="portfo" onclick="window.history.back()">
+        <div class="portfo" onclick="window.history.back()" data-aos="zoom-in ">
             <p>back</p>
         </div>
     </section>
@@ -199,6 +201,12 @@
     <script type="text/javascripit" src="script.js">
     </script>
     <script src="navscroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            duration: 2500
+        });
+    </script>
 </body>
 
 

@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="detailStyle.css">
         <link rel="stylesheet" href="contactStyles.css" rel="stylesheet">
         <script type="text/javascripit" src="navscroll.js"> </script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -57,7 +59,7 @@
                 We are here to help you with your next project, whether it be a brand new website or an existing one that needs some work done on the front <a href="mailto:get@dezigned.work">get@dezigned.work</a>
             </p>
 
-            <form action="">
+            <form action="" data-aos="zoom-in ">
                 <label for="name">Name</label> <br>
                 <input title="name" type="text" name="name" id="" placeholder="Dan">
                 <br>
@@ -65,7 +67,7 @@
                 <input title="company name" type="text" name="name" id="" placeholder="Earth, Inc">
                 <br>
 
-                <div class="telss">
+                <div class="telss" data-aos="zoom-in ">
                     <div>
                         <label for="email">Email</label> <br>
                         <input type="email" title="email" placeholder="johnny@yahoo.com">
@@ -82,7 +84,7 @@
                 <br>
                 <br>
 
-                <label for="radios">Project budget</label>
+                <label for="radios" data-aos="zoom-in ">Project budget</label>
                 <div class="yuwj" name="radios">
                     <label for="" class="boop">
                         <input type="radio" class="boop-input" name="budget">
@@ -113,7 +115,7 @@
                 <label for="optionss">How did you know about us?</label>
 
                 <br>
-                <select title="..." name="optionss" id="">
+                <select title="..." name="optionss" id="" data-aos="zoom-in ">
     
                     <option value="">Select one...</option>
                     <option value="">Dribbble</option>
@@ -136,7 +138,7 @@
 
 
 
-        <section class="thirty_one ">
+        <section class="thirty_one " data-aos="zoom-in ">
             <div>
                 <p>
                     <a href="index.html"><img src="logo_dew.png " alt=" "></a> &nbsp; Dezigned Work</p>
@@ -220,6 +222,12 @@
 
     <!--.................................................................................BETA-AREA........................................................................................-->
     <script src=" navscroll.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+    </script>
 </body>
 <script src=" script.js "></script>
 
