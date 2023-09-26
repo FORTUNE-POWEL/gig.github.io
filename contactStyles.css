@@ -30,7 +30,7 @@ section.sixty p {
 
 section.sixty form {
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     width: 600px;
     padding: 0 10px 10px 0;
@@ -48,6 +48,7 @@ section.sixty form input {
     background-color: white;
     box-shadow: 0 0 10px rgba(48, 227, 41, 0.1);
     margin: 10px 0 40px 0;
+    font-family: "comic Sans MS";
 }
 
 section.sixty form div.telss {
@@ -144,7 +145,7 @@ section.sixty form button {
     }
     section.sixty p {
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
         width: 80%;
         padding: 0 10px 10px 50px;
         margin: 50px auto 90px auto;
@@ -152,7 +153,7 @@ section.sixty form button {
     }
     section.sixty form {
         text-align: left;
-        font-size: 30px;
+        /* font-size: 30px; */
         font-weight: bold;
         width: 80%;
         padding: 0 10px 10px 0;
@@ -160,7 +161,8 @@ section.sixty form button {
     }
     section.sixty form label {
         color: #658260;
-        font-size: 20px;
+        font-size: 30px;
+        font-weight: bold;
     }
     section.sixty form input {
         font-size: 25px;
