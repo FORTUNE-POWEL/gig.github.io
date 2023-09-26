@@ -1139,6 +1139,9 @@
             right: 1px;
             transition: all 0.3s;
         }
+        section.thirty_one div ul li {
+            font-size: 20px;
+        }
         section.thirty_one div:nth-child(2) ul,
         section.thirty_one div:nth-child(3) ul,
         section.thirty_one div:nth-child(4) ul {
