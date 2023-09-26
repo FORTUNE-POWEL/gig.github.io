@@ -42,6 +42,7 @@ nav {
     padding: 5px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .nav_slide {
@@ -73,18 +74,18 @@ nav .left_side img {
 
 /* menue*/
 
-nav .right_side {
-    text-align: left;
-}
-
 nav .right_side ul {
     list-style-type: none;
     display: inline-flex;
     /* position: relative;
-    right: 90px;
-    top: 30px; */
+right: 90px;
+top: 30px; */
     font-size: 15px;
     text-align: right;
+}
+
+nav .right_side {
+    text-align: left;
 }
 
 nav .right_side ul li a {
@@ -92,6 +93,10 @@ nav .right_side ul li a {
     padding: 12px 15px;
     margin: auto 5px;
     color: #171717;
+}
+
+.dre {
+    display: none;
 }
 
 
@@ -246,6 +251,7 @@ section.two {
     display: block;
     width: 100%;
     background-color: #171717;
+    overflow: hidden;
 }
 
 
@@ -298,6 +304,8 @@ section.four p {
     display: block;
     color: #555555;
     transform: translateY(-50px);
+    text-wrap: wrap;
+    padding: 20px;
 }
 
 
@@ -1538,6 +1546,93 @@ section.fifteen {
 @media all and (max-width: 985px) {
     * {
         box-sizing: border-box;
+    }
+    /*...................................nav bar....................................*/
+    
+    .right_side {
+        display: none;
+    }
+    
+    .mediaQueryNavList {
+        text-align: center;
+        /* border: 2px dashed pink; */
+        width: 100px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .mediaQueryNavList:hover ul {
+        display: block;
+    }
+    
+    .mediaQueryNavList img {
+        width: 50px;
+    }
+    
+    .mediaQueryNavList ul {
+        list-style-type: none;
+        /* position: relative;
+    right: 90px;
+    top: 30px; */
+        font-size: 15px;
+        text-align: left;
+        display: none;
+        /* border: 2px dashed pink; */
+        list-style-position: inside;
+        border-radius: 5px;
+        background-color: #F7F7F7;
+        box-shadow: 0 0 30px grey;
+        padding: 20px 10px;
+        z-index: 8;
+    }
+    
+    .list_items {
+        position: absolute;
+        left: -10px;
+    }
+    
+    .mediaQueryNavList ul li {
+        margin: 20px auto;
+    }
+    
+    .dre {
+        grid-column-end: 3;
+        position: relative;
+        text-align: right;
+        right: 50px;
+        display: block;
+        z-index: 5;
+    }
+    
+    .mediaQueryNavList ul li a {
+        text-decoration: none;
+        padding: 12px 15px;
+        margin: 20px auto;
+        color: #171717;
+    }
+    /*...................................nav bar....................................*/
+    /*.............................section two........................*/
+    
+    section.two {
+        display: grid;
+        grid-template-columns: 80%;
+        gap: 5%;
+    }
+    
+    .two .two_left h1:last-of-type {
+        text-indent: 1.5em;
+        margin-top: 0;
+        padding-top: 0;
+        transform: translate(0, -100px);
+    }
+    
+    .two .two_right img {
+        display: none;
+    }
+    /*.............................section two........................*/
+    
+    section.four {
+        left: 1%;
     }
     
     body {

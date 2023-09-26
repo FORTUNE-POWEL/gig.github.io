@@ -872,8 +872,6 @@
                 }
                 section.thirty_six img:nth-child(4) {
                     height: 150px;
-                    /* position: absolute;
-        left: 600px; */
                     transform: translate(50px, -50px);
                 }
                 /* .........................thirty six......................... */
@@ -991,6 +989,8 @@
                 .wildding {
                     width: 100%;
                     overflow: hidden;
+                    width: 100%;
+                    margin-right: 5000px;
                 }
                 .ifjrm {
                     width: 100%;
