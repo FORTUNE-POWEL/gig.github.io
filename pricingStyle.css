@@ -224,5 +224,29 @@ nav {
         border: 1px solid #eceff133;
         border-radius: 15px;
         width: inherit;
+        height: 50vh;
+    }
+    .card__heading {
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .card__price {
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .card__bullets li {
+        font-size: 2.3em;
+    }
+    .card__cta {
+        padding: 20px;
+        font-size: 2em;
+    }
+    .main__heading {
+        font-weight: 600;
+        font-size: 3em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        color: #eceff1;
+        text-transform: capitalize;
     }
 }
