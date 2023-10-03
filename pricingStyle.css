@@ -44,7 +44,7 @@ ul {
 .cards__inner {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5em;
+    gap: 3em;
 }
 
 .card {
@@ -60,6 +60,7 @@ ul {
     background-color: #212121;
     border: 1px solid #eceff133;
     border-radius: 15px;
+    width: 1000px;
 }
 
 .card:nth-child(1) {
@@ -158,6 +159,10 @@ ul {
 
 /*...................thriteen...................*/
 
+#main_nav div ul li a {
+    color: black;
+}
+
 #mainFooter {
     transform: translate(0, 150px);
     padding: 20px 0 100px 0;
@@ -185,3 +190,39 @@ nav {
     z-index: 1;
     box-shadow: 1px 0 5px rgb(190, 180, 180);
 } */
+
+@media all and (max-width: 985px) {
+    .main__heading {
+        font-weight: 600;
+        font-size: 2.25em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        color: #eceff1;
+        text-transform: capitalize;
+    }
+    .cards {
+        position: relative;
+    }
+    .cards__inner {
+        /* display: flex;
+        flex-wrap: wrap;
+        gap: 3em; */
+        display: grid;
+        grid-template-columns: 700px;
+    }
+    .card {
+        /* --flow-space: 0.5em;
+        --hsl: var(--hue), var(--saturation), var(--lightness); */
+        flex: 1 1 14rem;
+        padding: 1.5em 2em;
+        display: grid;
+        grid-template-rows: auto auto auto 1fr;
+        align-items: start;
+        gap: 1.25em;
+        color: #eceff1;
+        background-color: #212121;
+        border: 1px solid #eceff133;
+        border-radius: 15px;
+        width: inherit;
+    }
+}
