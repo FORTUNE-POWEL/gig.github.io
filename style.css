@@ -1578,10 +1578,6 @@ section.fifteen {
         display: block;
     }
     
-    .dre_image {
-        width: 75px;
-    }
-    
     .mediaQueryNavList ul {
         list-style-type: none;
         /* position: relative;
@@ -1639,6 +1635,10 @@ section.fifteen {
         text-decoration: none;
         width: 300px;
         margin: auto;
+    }
+    
+    .dropDown {
+        width: 100000px;
     }
     /*...................................nav bar....................................*/
     /*.............................section two........................*/
