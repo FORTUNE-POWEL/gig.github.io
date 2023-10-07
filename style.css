@@ -1,11 +1,11 @@
 @font-face {
     font-family: poppins;
-    src: url('Poppins-Regular.ttf');
+    src: url('AvertaStd-Regular.ttf');
 }
 
 @font-face {
     font-family: blck;
-    src: url("Poppins-Bold.ttf");
+    src: url("AvertaStd-Bold.ttf");
 }
 
 * {
@@ -1435,7 +1435,7 @@ section.thirty_one_black_dark {
     grid-template-columns: 40% 20% 20% 20%;
     margin: auto;
     background-color: #171717;
-    color: #555555;
+    color: #A1A1AA;
     /* padding: 20px 65px 20px 90px; */
 }
 section.thirty_one_black_dark div:nth-child(1) p {
@@ -1460,11 +1460,11 @@ section.thirty_one_black_dark div:nth-child(1) p:nth-child(2) {
 }
 section.thirty_one_black_dark div:nth-child(1) a:nth-child(5) {
     text-decoration: none;
-    color: #555555;
+    color: #A1A1AA;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-    border: 1px solid #555555;
+    border: 1px solid #A1A1AA;
     padding: 12px 15px;
     position: relative;
     left: 12px;
@@ -1498,7 +1498,7 @@ section.thirty_one_black_dark div:nth-child(2) ul li a,
 section.thirty_one_black_dark div:nth-child(3) ul li a,
 section.thirty_one_black_dark div:nth-child(4) ul li a {
     text-decoration: none;
-    color: #555555;
+    color: #A1A1AA;
 }
 
 /*................................thirty_one_black_dark.......................*/
@@ -1514,7 +1514,7 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     /* grid-template-columns: 50% 50%; */
     
     background-color: #171717;
-    color: #555555;
+    color: #A1A1AA;
     justify-content: space-around;
     align-items: center;
     padding: 0 15px 20px 52px;
@@ -1524,7 +1524,7 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     position: relative;
     bottom: 0;
     z-index: 1;
-    color: #555555;
+    color: #A1A1AA;
     clear: both;
     align-items: center;
 }
@@ -1549,7 +1549,7 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     transform: translateY(-5.5px);
 }
 .sub_footer a {
-    color: #555555;
+    color: #A1A1AA;
     text-decoration: none;
     display: inline-block;
     padding: 0;
