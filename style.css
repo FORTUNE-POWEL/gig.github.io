@@ -1051,7 +1051,7 @@ section.twelve img {
 #mainFooter {
     width: 100%;
     background-color: white;
-    border: 3px dashed blue;
+    /* border: 3px dashed blue; */
 }
 
 
@@ -1280,19 +1280,22 @@ body.work div.animated div.work_grid div.mini_work_grid {
 /* body.work nav {
     background-color: rgba(23, 23, 23, 0.3);
     height: auto;
-    /* margin-bottom: 30px; */
+     margin-bottom: 30px; 
 
 
 }
-*/
-/* body.work nav ul {
+
+body.work nav ul {
     background-color: rgba(23, 23, 23, 0.3);
 } */
+
 body.work nav.work ul li a {
     color: #ffffff;
 }
 
+
 /*...................fourteen...................*/
+
 section.fourteen {
     position: relative;
     width: 100%;
@@ -1300,6 +1303,7 @@ section.fourteen {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 section.fourteen div.portfo {
     border: 3px solid #212121;
     padding: 20px;
@@ -1309,30 +1313,35 @@ section.fourteen div.portfo {
     box-shadow: 5px 5px 5px #000000;
     margin: 10px;
 }
+
 section.fourteen div.portfo:nth-child(1) {
     background-image: url(showcase/image16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.fourteen div.portfo:nth-child(2) {
     background-image: url(showcase/image4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.fourteen div.portfo:nth-child(3) {
     background-image: url(showcase/image15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.fourteen div.portfo:nth-child(4) {
     background-image: url(showcase/image1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.fourteen div.portfo:nth-child(5) {
     background-image: url(showcase/image8.jpg);
     background-repeat: no-repeat;
@@ -1340,7 +1349,9 @@ section.fourteen div.portfo:nth-child(5) {
     background-position: center;
 }
 
+
 /* section.fourteen div.portfo:nth-child(6) {} */
+
 section.fourteen div.portfo:hover {
     border-color: white;
     transition: 0.7s;
@@ -1351,9 +1362,12 @@ section.fourteen div.portfo:hover {
     animation-timing-function: ease-in;
 }
 
-/*beta class/ onclick class*/
 
 /*beta class/ onclick class*/
+
+
+/*beta class/ onclick class*/
+
 section.fourteen div.portfo p {
     text-transform: capitalize;
     font-weight: bolder;
@@ -1362,17 +1376,20 @@ section.fourteen div.portfo p {
     top: 120px;
     text-shadow: 3px 3px 3px #171717;
 }
+
 section.fourteen div.portfo p::after {
     content: url("arrowright.png");
     position: relative;
     left: 10px;
     top: 3px;
 }
+
 section.fourteen div.portfo p:hover::after {
     animation-name: click1;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
 }
+
 
 /* section.fourteen div.portfo div.content {
     width: 900px;
@@ -1388,22 +1405,28 @@ section.fourteen div.portfo p:hover::after {
      display: none; 
 
 }*/
+
 section.fourteen div.portfo div.content img {
     width: 400px;
     margin: 10px;
     border-radius: 10px;
 }
+
 section.fourteen div.portfo div.content img.head-image {
     width: 900px;
     border-radius: 10px;
 }
+
 section.fourteen div.portfo div.content pre {
     width: 500px;
 }
-*/
+
+
 /*...................fourteen...................*/
 
+
 /*...................fifteen...................*/
+
 section.fifteen {
     height: 90%;
     width: 100%;
@@ -1412,21 +1435,29 @@ section.fifteen {
     position: relative;
 }
 
+
 /*...................fifteen...................*/
+
 
 /*WORKS PAGE*/
 
+
 /*...............................................................BETA-AREA...............................................................*/
+
 
 /*...........................dark mode.......................................*/
 
+
 /* new insertion #1 */
+
 .mainFooter {
     width: 100%;
     background-color: #171717;
 }
 
+
 /*................................thirty_one_black_dark .......................*/
+
 section.thirty_one_black_dark {
     width: 1080px;
     display: grid;
@@ -1438,6 +1469,7 @@ section.thirty_one_black_dark {
     color: #A1A1AA;
     /* padding: 20px 65px 20px 90px; */
 }
+
 section.thirty_one_black_dark div:nth-child(1) p {
     display: flex;
     flex-wrap: wrap;
@@ -1446,18 +1478,22 @@ section.thirty_one_black_dark div:nth-child(1) p {
     padding: 10px 0 10px 0;
     line-height: 2em;
 }
+
 section.thirty_one_black_dark div:nth-child(1) p:nth-child(1) {
     position: relative;
     Left: -2px;
 }
+
 section.thirty_one_black_dark div:nth-child(1) p img {
     height: 50px;
     width: 50px;
 }
+
 section.thirty_one_black_dark div:nth-child(1) p:nth-child(2) {
     position: relative;
     Left: 3px;
 }
+
 section.thirty_one_black_dark div:nth-child(1) a:nth-child(5) {
     text-decoration: none;
     color: #A1A1AA;
@@ -1469,6 +1505,7 @@ section.thirty_one_black_dark div:nth-child(1) a:nth-child(5) {
     position: relative;
     left: 12px;
 }
+
 section.thirty_one_black_dark div:nth-child(1) a:nth-child(5)::before {
     content: '';
     position: absolute;
@@ -1479,21 +1516,25 @@ section.thirty_one_black_dark div:nth-child(1) a:nth-child(5)::before {
     background-color: rgba(85, 85, 85, 0.23);
     transition: all 0.3s;
 }
+
 section.thirty_one_black_dark div:nth-child(1) a:nth-child(5):hover::before {
     right: 1px;
     transition: all 0.3s;
 }
+
 section.thirty_one_black_dark div:nth-child(2) ul,
 section.thirty_one_black_dark div:nth-child(3) ul,
 section.thirty_one_black_dark div:nth-child(4) ul {
     list-style-type: none;
 }
+
 section.thirty_one_black_dark div:nth-child(2) ul li,
 section.thirty_one_black_dark div:nth-child(3) ul li,
 section.thirty_one_black_dark div:nth-child(4) ul li {
     margin: 20px 0;
     text-transform: capitalize;
 }
+
 section.thirty_one_black_dark div:nth-child(2) ul li a,
 section.thirty_one_black_dark div:nth-child(3) ul li a,
 section.thirty_one_black_dark div:nth-child(4) ul li a {
@@ -1501,24 +1542,29 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     color: #A1A1AA;
 }
 
+
 /*................................thirty_one_black_dark.......................*/
+
 
 /* new insertion #1 */
 
+
 /*...................footer...................*/
-.poooof {
+
+#tryOut div p:nth-child(1) {
     display: none;
 }
+
 .sub_footer {
     /* display: flex; */
     /* grid-template-columns: 50% 50%; */
-    
     background-color: #171717;
     color: #A1A1AA;
     justify-content: space-around;
     align-items: center;
     padding: 0 15px 20px 52px;
 }
+
 .sub_footer div {
     display: flex;
     position: relative;
@@ -1528,26 +1574,28 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     clear: both;
     align-items: center;
 }
+
 .sub_footer div:nth-child(1) {
     justify-content: space-around;
     width: 540px;
     margin: auto;
     /* border: 2px solid pink; */
-    
     position: relative;
     align-items: center;
 }
+
 .sub_footer div:nth-child(1) p:nth-child(2) {
     transform: translateY(2.5px);
 }
+
 .sub_footer div:nth-child(2) {
     justify-content: end;
     width: 540px;
     /* border: 2px solid pink; */
-    
     margin: auto;
     transform: translateY(-5.5px);
 }
+
 .sub_footer a {
     color: #A1A1AA;
     text-decoration: none;
@@ -1555,160 +1603,150 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     padding: 0;
     margin-top: 12.5px;
 }
+
 .fIcons {
     width: 25px;
     transform: translateY(3px);
     margin: 0 15px;
 }
+
 .fIcon {
     width: 20px;
     transform: translateY(3px);
 }
 
+
 /* tryout .sub_footer page */
+
 .sub_footer div.tryOut {
     /* background-color: pink; */
-    
     width: 1200px;
     height: 1in;
     margin: auto;
 }
 
+
 /* tryout footer page */
+
 
 /*...................footer...................*/
 
+
 /*...........................dark mode.......................................*/
 
+
 /*---ANIMATIONS---*/
+
 @keyframes colorChanger {
     25% {
         color: blue;
     }
-    
     50% {
         color: blueviolet;
     }
-    
     75% {
         color: rgb(179, 116, 238);
     }
-    
     100% {
         color: rgb(230, 221, 238);
     }
 }
+
 @keyframes click1 {
     0% {
         position: relative;
         left: 13px;
     }
-    
     50% {
         position: relative;
         left: 6.5px;
     }
-    
     100% {
         position: relative;
         left: 9px;
     }
 }
+
 @keyframes background_effect {
     0% {
         background-repeat: no-repeat;
         background-position: center;
     }
-    
     25% {
         background-repeat: repeat;
         background-size: contain;
         background-position: center;
     }
-    
     50% {
         background-repeat: repeat;
         background-size: 50px;
     }
-    
     75% {
         background-repeat: no-repeat;
         background-size: 200px;
         background-position: center;
     }
-    
     100% {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 }
+
 @keyframes slide_in {
     0% {
         opacity: 0
     }
-    
     10% {
         opacity: 0.2;
     }
-    
     20% {
         opacity: 0.3;
     }
-    
     30% {
         opacity: 0.4;
     }
-    
     40% {
         opacity: 0.5;
     }
-    
     50% {
         opacity: 0.6;
     }
-    
     50% {
         opacity: 0.7;
     }
-    
     70% {
         opacity: 0.8;
     }
-    
     80% {
         opacity: 0.9;
     }
-    
     90% {
         opacity: 1;
     }
 }
+
 @keyframes backgroundAnimation {
     0% {
         background-image: url(showcase/image16.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     25% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     50% {
         background-image: url(showcase/image15.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     75% {
         background-image: url(showcase/image4.jpg);
         background-size: cover;
         background-position: top center;
     }
-    
     100% {
         background-image: url(showcase/image8.jpg);
         background-size: cover;
@@ -1716,21 +1754,20 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     }
 }
 
+
 /*media queries*/
+
 @media all and (max-width: 985px) {
     * {
         box-sizing: border-box;
     }
-    
     .hardguy {
         transform: translateX(55px);
     }
     /*...................................nav bar....................................*/
-    
     .right_side {
         display: none;
     }
-    
     .mediaQueryNavList {
         text-align: center;
         /* border: 2px dashed pink; */
@@ -1738,11 +1775,9 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         position: relative;
         display: inline-block;
     }
-    
     .mediaQueryNavList:hover .list_items {
         display: block;
     }
-    
     .mediaQueryNavList ul {
         list-style-type: none;
         /* position: relative;
@@ -1756,7 +1791,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         padding: 20px 10px;
         z-index: 8;
     }
-    
     .list_items {
         position: absolute;
         left: -40vh;
@@ -1767,11 +1801,9 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         display: none;
         /* backdrop-filter: blur(10px); */
     }
-    
     .mediaQueryNavList ul li {
         margin: 20px auto;
     }
-    
     .dre {
         grid-column-end: 3;
         position: relative;
@@ -1780,7 +1812,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         display: block;
         z-index: 5;
     }
-    
     .mediaQueryNavList ul li a {
         text-decoration: none;
         padding: 12px 15px;
@@ -1788,7 +1819,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         color: #171717;
         font-size: 32px;
     }
-    
     .crimson {
         font-size: 26px;
         color: white;
@@ -1801,41 +1831,34 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         width: 300px;
         margin: auto;
     }
-    
     #dropDown {
         width: 100px;
         /* border: 2px dashed pink; */
     }
     /*...................................nav bar....................................*/
     /*.............................section two........................*/
-    
     section.two {
         display: grid;
         grid-template-columns: 80%;
         gap: 5%;
     }
-    
     .two .two_left h1:last-of-type {
         text-indent: 1.5em;
         margin-top: 0;
         padding-top: 0;
         transform: translate(0, -100px);
     }
-    
     .two .two_right img {
         display: none;
     }
     /*.............................section two........................*/
-    
     section.four {
         left: 1%;
     }
-    
     body {
         overflow-x: hidden;
     }
     /*...................footer...................*/
-    
     footer,
     .sub_footer {
         /* display: flex; */
@@ -1845,7 +1868,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         align-items: center;
         padding: 0 15px 20px 52px;
     }
-    
     footer div,
     .sub_footer div {
         display: flex;
@@ -1856,7 +1878,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         clear: both;
         align-items: center;
     }
-    
     footer div:nth-child(1),
     .sub_footer div:nth-child(1) {
         justify-content: space-around;
@@ -1866,12 +1887,10 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         position: relative;
         align-items: center;
     }
-    
     footer div:nth-child(1) p:nth-child(2),
     .sub_footer div:nth-child(1) p:nth-child(2) {
         transform: translateY(2.5px);
     }
-    
     footer div:nth-child(2),
     .sub_footer div:nth-child(2) {
         justify-content: end;
@@ -1880,7 +1899,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         margin: auto;
         transform: translateY(-5.5px);
     }
-    
     footer a,
     .sub_footer a {
         /* color: black; */
@@ -1889,19 +1907,16 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         padding: 0;
         margin-top: 12.5px;
     }
-    
     .fIcons {
         width: 60px;
         /* transform: translateY(3px); */
         /* margin: 0 15px; */
     }
-    
     .fIcon {
         width: 20px;
         transform: translateY(3px);
     }
     /* tryout footer page */
-    
     footer div.tryOut,
     .sub_footer div.tryOut {
         /* background-color: pink; */
@@ -1915,43 +1930,36 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         justify-content: space-between;
         transform: translateX(-20px);
     }
-    
     footer div.tryOut div,
     .sub_footer div.tryOut div {
         width: 100%;
     }
-    
     footer div.tryOut div:nth-child(1),
     .sub_footer div.tryOut div:nth-child(1) {
         display: grid;
         grid-template-columns: 100%;
     }
-    
     footer div.tryOut div:nth-child(2),
     .sub_footer div.tryOut div:nth-child(2) {
         padding: 120px;
         display: flex;
         justify-content: space-around;
     }
-    
     .cream {
         font-size: 40px;
         text-transform: capitalize;
     }
-    
     .poooof {
         display: block;
     }
     /* tryout footer page */
     /*...................footer...................*/
     /* new insertion #1 */
-    
     #mainFooter {
         width: 100%;
         background-color: white;
     }
     /*................................thirty_one_black .......................*/
-    
     section.thirty_one_black,
     section.thirty_one_black_dark {
         width: 100%;
@@ -1964,18 +1972,15 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         color: black; */
         /* padding: 20px 65px 20px 90px; */
     }
-    
     section.thirty_one_black div,
     section.thirty_one_black_dark div {
         margin-bottom: 50px;
         padding: 50px;
     }
-    
     section.thirty_one_black div p,
     section.thirty_one_black_dark div p {
         font-size: 20px;
     }
-    
     section.thirty_one_black div:nth-child(1) p,
     section.thirty_one_black_dark div:nth-child(1) p {
         display: flex;
@@ -1986,7 +1991,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         line-height: 2em;
         font-size: 40px;
     }
-    
     section.thirty_one_black div:nth-child(1) p:nth-child(1) {
         position: relative;
         Left: -2px;
@@ -1995,12 +1999,10 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         width: 100px;
         height: 100px;
     } */
-    
     section.thirty_one_black div:nth-child(1) p:nth-child(2) {
         position: relative;
         Left: 3px;
     }
-    
     section.thirty_one_black div:nth-child(1) a:nth-child(5) {
         text-decoration: none;
         color: #555555;
@@ -2012,7 +2014,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         position: relative;
         left: 12px;
     }
-    
     section.thirty_one_black div:nth-child(1) a:nth-child(5)::before {
         content: '';
         position: absolute;
@@ -2023,22 +2024,18 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         background-color: rgba(85, 85, 85, 0.23);
         transition: all 0.3s;
     }
-    
     section.thirty_one_black div:nth-child(1) a:nth-child(5):hover::before {
         right: 1px;
         transition: all 0.3s;
     }
-    
     section.thirty_one_black div:nth-child(2) ul,
     section.thirty_one_black div:nth-child(3) ul,
     section.thirty_one_black div:nth-child(4) ul {
         list-style-type: none;
     }
-    
     section.thirty_one_black div ul li {
         font-size: 16px;
     }
-    
     section.thirty_one_black div:nth-child(2) ul li,
     section.thirty_one_black div:nth-child(3) ul li,
     section.thirty_one_black div:nth-child(4) ul li {
@@ -2047,7 +2044,6 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
         margin-bottom: 50px;
         font-size: 16px;
     }
-    
     section.thirty_one_black div:nth-child(2) ul li a,
     section.thirty_one_black div:nth-child(3) ul li a,
     section.thirty_one_black div:nth-child(4) ul li a {
@@ -2056,13 +2052,11 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     }
     /*................................thirty_one_black.......................*/
     /* new insertion #1 */
-    
     nav .left_side img {
         width: 100px;
         height: 100px;
         transform: translateX(100px);
     }
-    
     #s_logo {
         width: 100px;
         height: 100px;
