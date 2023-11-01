@@ -1224,6 +1224,10 @@ footer div.tryOut {
     margin: auto;
 }
 
+footer div.tryOut p:nth-child(2) {
+    transform: translateY(-3px);
+}
+
 
 /* tryout footer page */
 
@@ -1353,13 +1357,14 @@ section.fourteen div.portfo:nth-child(5) {
 /* section.fourteen div.portfo:nth-child(6) {} */
 
 section.fourteen div.portfo:hover {
-    border-color: white;
+    border-color: #A1A1AA;
     transition: 0.7s;
     transition-timing-function: ease-out;
     animation-name: background_effect;
     animation-duration: 6s;
     animation-delay: 1.5s;
     animation-timing-function: ease-in;
+    box-shadow: 5px 5px 50px #000000;
 }
 
 
@@ -1623,6 +1628,10 @@ section.thirty_one_black_dark div:nth-child(4) ul li a {
     width: 1200px;
     height: 1in;
     margin: auto;
+}
+
+.sub_footer div.tryOut p:nth-child(2) {
+    transform: translateY(-3px);
 }
 
 
